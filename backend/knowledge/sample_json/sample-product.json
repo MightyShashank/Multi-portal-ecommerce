@@ -1,0 +1,206 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://example.com/product.schema.json",
+    "title": "Product",
+    "description": "A schema representing a generic product with comprehensive attributes applicable across various categories.",
+    "type": "object",
+    "properties": {
+      "id": {
+        "description": "A unique identifier for the product.",
+        "type": "string"
+      },
+      "name": {
+        "description": "The name of the product.",
+        "type": "string"
+      },
+      "description": {
+        "description": "A detailed description of the product.",
+        "type": "string"
+      },
+      "brand": {
+        "description": "The brand associated with the product.",
+        "type": "string"
+      },
+      "model_number": {
+        "description": "The model number designated by the manufacturer.",
+        "type": "string"
+      },
+      "category": {
+        "description": "The category or classification of the product.",
+        "type": "string"
+      },
+      "sub-category": {
+        "description": "The sub-category or sub-classification of the product within the category.",
+        "type": "string"
+      },
+      "identifiers": {
+        "description": "Various standard identifiers for the product.",
+        "type": "object",
+        "properties": {
+          "sku": {
+            "description": "Stock Keeping Unit, a unique identifier assigned by retailers.",
+            "type": "string"
+          },
+          "upc": {
+            "description": "Universal Product Code, a barcode standard used worldwide.",
+            "type": "string"
+          },
+          "ean": {
+            "description": "European Article Number, an international barcode standard.",
+            "type": "string"
+          },
+          "isbn": {
+            "description": "International Standard Book Number, a unique identifier for books.",
+            "type": "string"
+          }
+        }
+      },
+      "price": {
+        "description": "The pricing details of the product.",
+        "type": "object",
+        "properties": {
+          "amount": {
+            "description": "The numerical value of the price.",
+            "type": "number",
+            "minimum": 0
+          },
+          "currency": {
+            "description": "The currency code (e.g., USD, EUR) for the price.",
+            "type": "string",
+            "pattern": "^[A-Z]{3}$"
+          }
+        },
+        "required": ["amount", "currency"]
+      },
+      "availability": {
+        "description": "Information regarding the product's stock status.",
+        "type": "object",
+        "properties": {
+          "stock": {
+            "description": "The number of units available in stock.",
+            "type": "integer",
+            "minimum": 0
+          },
+          "status": {
+            "description": "The availability status of the product (e.g., In Stock, Out of Stock).",
+            "type": "string"
+          },
+          "restock_date": {
+            "description": "The expected date when the product will be restocked.",
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "required": ["stock", "status"]
+      },
+      "rating": {
+        "description": "Customer rating details for the product.",
+        "type": "object",
+        "properties": {
+          "average": {
+            "description": "The average rating score.",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 5
+          },
+          "number_of_reviews": {
+            "description": "The total number of reviews received.",
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": ["average", "number_of_reviews"]
+      },
+      "dimensions": {
+        "description": "Physical dimensions and weight of the product.",
+        "type": "object",
+        "properties": {
+          "height_cm": {
+            "description": "The height of the product in centimeters.",
+            "type": "number",
+            "minimum": 0
+          },
+          "width_cm": {
+            "description": "The width of the product in centimeters.",
+            "type": "number",
+            "minimum": 0
+          },
+          "depth_cm": {
+            "description": "The depth of the product in centimeters.",
+            "type": "number",
+            "minimum": 0
+          },
+          "weight_kg": {
+            "description": "The weight of the product in kilograms.",
+            "type": "number",
+            "minimum": 0
+          }
+        }
+      },
+      "materials": {
+        "description": "Materials used in the construction of the product.",
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "colors": {
+        "description": "Available color options for the product.",
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "features": {
+        "description": "Key features and functionalities of the product.",
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "images": {
+        "description": "Image URLs and descriptions associated with the product.",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "url": {
+              "description": "The URL of the image.",
+              "type": "string",
+              "format": "uri"
+            },
+            "alt_text": {
+              "description": "Alternative text describing the image.",
+              "type": "string"
+            }
+          },
+          "required": ["url", "alt_text"]
+        }
+      },
+      "seller": {
+        "description": "Details about the seller of the product.",
+        "type": "object",
+        "properties": {
+          "seller_id": { "description": "A unique identifier for the seller.", "type": "string" },
+          "store_name": { "description": "The name of the seller's store.", "type": "string" },
+          "contact_info": {
+            "description": "Contact details for the seller.",
+            "type": "object",
+            "properties": {
+              "email": { "description": "Seller's email address.", "type": "string", "format": "email" },
+              "phone": { "description": "Seller's phone number.", "type": "string" },
+              "website": { "description": "Seller's website URL.", "type": "string", "format": "uri" }
+            }
+          },
+          "location": { "description": "The geographical location of the seller.", "type": "string" },
+          "performance": {
+            "description": "Seller's performance metrics.",
+            "type": "object",
+            "properties": {
+              "rating": { "description": "The average rating of the seller.", "type": "number", "minimum": 0, "maximum": 5 },
+              "number_of_reviews": { "description": "The number of reviews the seller has received.", "type": "integer", "minimum": 0 },
+              "fulfillment_speed": { "description": "The speed of order processing (e.g., Same Day, 1-3 Days).", "type": "string" },
+              "return_policy": { "description": "The return policy offered by the seller.", "type": "string" }
+            }
+          }
+        },
+        "required": ["seller_id", "store_name"]
+      }
+    },
+    "required": ["id", "name", "price", "availability"]
+  }
+  

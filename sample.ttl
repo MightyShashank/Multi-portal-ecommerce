@@ -1,0 +1,44 @@
+@prefix : <https://onto4all.com/en/ontologies/2010/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://onto4all.com/en/ontologies/2010/> .
+
+<https://onto4all.com/en/ontologies/2010/> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://onto4all.com/en/ontologies/2010/hasColor
+:hasColor rdf:type owl:ObjectProperty ;
+    rdfs:domain :Product ;
+    rdfs:range :Color .
+
+###  https://onto4all.com/en/ontologies/2010/hasSize
+:hasSize rdf:type owl:ObjectProperty ;
+    rdfs:domain :Product ;
+    rdfs:range :Size .
+
+###  https://onto4all.com/en/ontologies/2010/hasBrand
+:hasBrand rdf:type owl:ObjectProperty ;
+    rdfs:domain :Product ;
+    rdfs:range :Brand .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://onto4all.com/en/ontologies/2010/Product
+:Product rdf:type owl:Class .
+
+###  https://onto4all.com/en/ontologies/2010/Color
+:Color rdf:type owl:Class .
+
+###  https://onto4all.com/en/ontologies/2010/Size
+:Size rdf:type owl:Class .
+
+###  https://onto4all.com/en/ontologies/2010/Brand
+:Brand rdf:type owl:Class
