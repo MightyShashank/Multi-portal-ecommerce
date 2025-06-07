@@ -897,6 +897,19 @@ sellers = [{
     "location": fake.city()
 } for _ in range(10)]
 
+with open('sellers.json', 'r') as f:
+    sellers_data = json.load(f)
+
+def find_seller_by_product(product_id):
+    """
+    Takes a product_id and searches for it in the sellers_data.
+    Returns the seller_id if found, else returns None.
+    """
+    for seller in sellers_data:
+        if product_id in seller.get('sellsProducts', []):
+            return seller.get('seller_id')
+    return None
+
 
 def generate_fake_product(category, subcategory):
     name, brand, model_pattern = random.choice(product_data[subcategory])

@@ -882,7 +882,7 @@ def generate_fake_product(category, subcategory):
             "upc": fake.ean(length=13),
             "ean": fake.ean(length=8),
             "isbn": None
-        },
+        }, 
         "price": {
             "amount": round(random.uniform(50, 3000), 2),
             "currency": "USD"

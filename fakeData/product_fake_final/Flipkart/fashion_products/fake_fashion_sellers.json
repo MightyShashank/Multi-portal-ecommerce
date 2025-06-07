@@ -1,0 +1,1422 @@
+{
+    "mens-clothing": [
+        {
+            "retailer_id": "flipkart_seller_mens_clothing_1",
+            "retailer_name": "H&M",
+            "retailer_store_name": "Carlson-Newman",
+            "contact_info": {
+                "email": "dixonjennifer@example.org",
+                "phone": "870-938-1456x4255",
+                "address": "4961 Sarah Meadow\nEast Victoria, VI 51804"
+            },
+            "performance_metrics": {
+                "average_rating": "4.1",
+                "total_orders": 2912,
+                "cancellation_rate": "2.9%",
+                "on_time_delivery_rate": "99.6%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_mens-clothing_1",
+                "flipkart_fashion_mens-clothing_2",
+                "flipkart_fashion_mens-clothing_3",
+                "flipkart_fashion_mens-clothing_4",
+                "flipkart_fashion_mens-clothing_5",
+                "flipkart_fashion_mens-clothing_6",
+                "flipkart_fashion_mens-clothing_7",
+                "flipkart_fashion_mens-clothing_8",
+                "flipkart_fashion_mens-clothing_9",
+                "flipkart_fashion_mens-clothing_10"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_mens_clothing_2",
+            "retailer_name": "Zara",
+            "retailer_store_name": "Black, Gutierrez and Paul",
+            "contact_info": {
+                "email": "natalie46@example.com",
+                "phone": "001-456-877-6242",
+                "address": "308 Nancy Point\nPort Alishabury, WV 71038"
+            },
+            "performance_metrics": {
+                "average_rating": "4.2",
+                "total_orders": 3509,
+                "cancellation_rate": "2.2%",
+                "on_time_delivery_rate": "97.6%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_mens-clothing_11",
+                "flipkart_fashion_mens-clothing_12",
+                "flipkart_fashion_mens-clothing_13",
+                "flipkart_fashion_mens-clothing_14",
+                "flipkart_fashion_mens-clothing_15",
+                "flipkart_fashion_mens-clothing_16",
+                "flipkart_fashion_mens-clothing_17",
+                "flipkart_fashion_mens-clothing_18",
+                "flipkart_fashion_mens-clothing_19",
+                "flipkart_fashion_mens-clothing_20"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_mens_clothing_3",
+            "retailer_name": "Myntra",
+            "retailer_store_name": "Warner, Medina and Marsh",
+            "contact_info": {
+                "email": "megan42@example.net",
+                "phone": "(494)231-5674x49198",
+                "address": "PSC 2096, Box 2417\nAPO AE 55349"
+            },
+            "performance_metrics": {
+                "average_rating": "4.1",
+                "total_orders": 4881,
+                "cancellation_rate": "3.9%",
+                "on_time_delivery_rate": "99.6%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_mens-clothing_21",
+                "flipkart_fashion_mens-clothing_22",
+                "flipkart_fashion_mens-clothing_23",
+                "flipkart_fashion_mens-clothing_24",
+                "flipkart_fashion_mens-clothing_25",
+                "flipkart_fashion_mens-clothing_26",
+                "flipkart_fashion_mens-clothing_27",
+                "flipkart_fashion_mens-clothing_28",
+                "flipkart_fashion_mens-clothing_29",
+                "flipkart_fashion_mens-clothing_30"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_mens_clothing_4",
+            "retailer_name": "AJIO",
+            "retailer_store_name": "Russell LLC",
+            "contact_info": {
+                "email": "qwall@example.com",
+                "phone": "465.598.6469x90358",
+                "address": "USNS Martinez\nFPO AE 98937"
+            },
+            "performance_metrics": {
+                "average_rating": "4.2",
+                "total_orders": 2555,
+                "cancellation_rate": "3.7%",
+                "on_time_delivery_rate": "95.9%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_mens-clothing_31",
+                "flipkart_fashion_mens-clothing_32",
+                "flipkart_fashion_mens-clothing_33",
+                "flipkart_fashion_mens-clothing_34",
+                "flipkart_fashion_mens-clothing_35",
+                "flipkart_fashion_mens-clothing_36",
+                "flipkart_fashion_mens-clothing_37",
+                "flipkart_fashion_mens-clothing_38",
+                "flipkart_fashion_mens-clothing_39",
+                "flipkart_fashion_mens-clothing_40"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_mens_clothing_5",
+            "retailer_name": "Levi's",
+            "retailer_store_name": "Williamson Ltd",
+            "contact_info": {
+                "email": "mitchellmadison@example.net",
+                "phone": "512-235-7092x27764",
+                "address": "59406 Smith Fords Suite 219\nSouth Williehaven, FM 88005"
+            },
+            "performance_metrics": {
+                "average_rating": "4.2",
+                "total_orders": 3526,
+                "cancellation_rate": "3.6%",
+                "on_time_delivery_rate": "97.4%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_mens-clothing_41",
+                "flipkart_fashion_mens-clothing_42",
+                "flipkart_fashion_mens-clothing_43",
+                "flipkart_fashion_mens-clothing_44",
+                "flipkart_fashion_mens-clothing_45",
+                "flipkart_fashion_mens-clothing_46",
+                "flipkart_fashion_mens-clothing_47",
+                "flipkart_fashion_mens-clothing_48",
+                "flipkart_fashion_mens-clothing_49",
+                "flipkart_fashion_mens-clothing_50"
+            ]
+        }
+    ],
+    "womens-clothing": [
+        {
+            "retailer_id": "flipkart_seller_womens_clothing_1",
+            "retailer_name": "Biba",
+            "retailer_store_name": "Mitchell, Marquez and Lopez",
+            "contact_info": {
+                "email": "justin24@example.org",
+                "phone": "771.313.9987x771",
+                "address": "Unit 9626 Box 8161\nDPO AA 29034"
+            },
+            "performance_metrics": {
+                "average_rating": "4.2",
+                "total_orders": 2945,
+                "cancellation_rate": "4.8%",
+                "on_time_delivery_rate": "97.6%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_womens-clothing_1",
+                "flipkart_fashion_womens-clothing_2",
+                "flipkart_fashion_womens-clothing_3",
+                "flipkart_fashion_womens-clothing_4",
+                "flipkart_fashion_womens-clothing_5",
+                "flipkart_fashion_womens-clothing_6",
+                "flipkart_fashion_womens-clothing_7",
+                "flipkart_fashion_womens-clothing_8",
+                "flipkart_fashion_womens-clothing_9",
+                "flipkart_fashion_womens-clothing_10"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_womens_clothing_2",
+            "retailer_name": "Vero Moda",
+            "retailer_store_name": "Garcia LLC",
+            "contact_info": {
+                "email": "kimlutz@example.net",
+                "phone": "620.241.4698x86261",
+                "address": "250 Vickie Inlet Apt. 295\nLake Julieberg, DE 65643"
+            },
+            "performance_metrics": {
+                "average_rating": "4.3",
+                "total_orders": 2102,
+                "cancellation_rate": "2.5%",
+                "on_time_delivery_rate": "95.7%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_womens-clothing_11",
+                "flipkart_fashion_womens-clothing_12",
+                "flipkart_fashion_womens-clothing_13",
+                "flipkart_fashion_womens-clothing_14",
+                "flipkart_fashion_womens-clothing_15",
+                "flipkart_fashion_womens-clothing_16",
+                "flipkart_fashion_womens-clothing_17",
+                "flipkart_fashion_womens-clothing_18",
+                "flipkart_fashion_womens-clothing_19",
+                "flipkart_fashion_womens-clothing_20"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_womens_clothing_3",
+            "retailer_name": "Sabyasachi",
+            "retailer_store_name": "Eaton, Smith and Hatfield",
+            "contact_info": {
+                "email": "callahanchristopher@example.net",
+                "phone": "258-828-6804",
+                "address": "9833 Morgan View\nWest Stacey, OR 37151"
+            },
+            "performance_metrics": {
+                "average_rating": "4.8",
+                "total_orders": 1939,
+                "cancellation_rate": "2.0%",
+                "on_time_delivery_rate": "98.2%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_womens-clothing_21",
+                "flipkart_fashion_womens-clothing_22",
+                "flipkart_fashion_womens-clothing_23",
+                "flipkart_fashion_womens-clothing_24",
+                "flipkart_fashion_womens-clothing_25",
+                "flipkart_fashion_womens-clothing_26",
+                "flipkart_fashion_womens-clothing_27",
+                "flipkart_fashion_womens-clothing_28",
+                "flipkart_fashion_womens-clothing_29",
+                "flipkart_fashion_womens-clothing_30"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_womens_clothing_4",
+            "retailer_name": "H&M",
+            "retailer_store_name": "Hernandez, Jordan and Morris",
+            "contact_info": {
+                "email": "skey@example.org",
+                "phone": "+1-814-418-4297x3801",
+                "address": "84866 Webb Courts Apt. 225\nMarilynview, VT 82951"
+            },
+            "performance_metrics": {
+                "average_rating": "5.0",
+                "total_orders": 1605,
+                "cancellation_rate": "3.1%",
+                "on_time_delivery_rate": "100.0%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_womens-clothing_31",
+                "flipkart_fashion_womens-clothing_32",
+                "flipkart_fashion_womens-clothing_33",
+                "flipkart_fashion_womens-clothing_34",
+                "flipkart_fashion_womens-clothing_35",
+                "flipkart_fashion_womens-clothing_36",
+                "flipkart_fashion_womens-clothing_37",
+                "flipkart_fashion_womens-clothing_38",
+                "flipkart_fashion_womens-clothing_39",
+                "flipkart_fashion_womens-clothing_40"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_womens_clothing_5",
+            "retailer_name": "Van Heusen",
+            "retailer_store_name": "Lee-Martinez",
+            "contact_info": {
+                "email": "juliapadilla@example.net",
+                "phone": "001-817-579-9392x119",
+                "address": "67183 Rios Mission Suite 710\nPaulbury, AS 36411"
+            },
+            "performance_metrics": {
+                "average_rating": "4.8",
+                "total_orders": 3560,
+                "cancellation_rate": "4.1%",
+                "on_time_delivery_rate": "97.9%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_womens-clothing_41",
+                "flipkart_fashion_womens-clothing_42",
+                "flipkart_fashion_womens-clothing_43",
+                "flipkart_fashion_womens-clothing_44",
+                "flipkart_fashion_womens-clothing_45",
+                "flipkart_fashion_womens-clothing_46",
+                "flipkart_fashion_womens-clothing_47",
+                "flipkart_fashion_womens-clothing_48",
+                "flipkart_fashion_womens-clothing_49",
+                "flipkart_fashion_womens-clothing_50"
+            ]
+        }
+    ],
+    "kids-clothing": [
+        {
+            "retailer_id": "flipkart_seller_kids_clothing_1",
+            "retailer_name": "FirstCry",
+            "retailer_store_name": "Jones, Sharp and Miller",
+            "contact_info": {
+                "email": "gregory26@example.org",
+                "phone": "001-348-894-9316x0573",
+                "address": "PSC 9600, Box 7541\nAPO AP 54770"
+            },
+            "performance_metrics": {
+                "average_rating": "4.1",
+                "total_orders": 1065,
+                "cancellation_rate": "2.0%",
+                "on_time_delivery_rate": "96.1%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_kids-clothing_1",
+                "flipkart_fashion_kids-clothing_2",
+                "flipkart_fashion_kids-clothing_3",
+                "flipkart_fashion_kids-clothing_4",
+                "flipkart_fashion_kids-clothing_5",
+                "flipkart_fashion_kids-clothing_6",
+                "flipkart_fashion_kids-clothing_7",
+                "flipkart_fashion_kids-clothing_8",
+                "flipkart_fashion_kids-clothing_9",
+                "flipkart_fashion_kids-clothing_10"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_kids_clothing_2",
+            "retailer_name": "Mothercare",
+            "retailer_store_name": "Smith, Mccarthy and Mitchell",
+            "contact_info": {
+                "email": "gjohnson@example.net",
+                "phone": "+1-745-945-9016x596",
+                "address": "PSC 8084, Box 9399\nAPO AP 35709"
+            },
+            "performance_metrics": {
+                "average_rating": "4.7",
+                "total_orders": 4802,
+                "cancellation_rate": "2.4%",
+                "on_time_delivery_rate": "95.1%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_kids-clothing_11",
+                "flipkart_fashion_kids-clothing_12",
+                "flipkart_fashion_kids-clothing_13",
+                "flipkart_fashion_kids-clothing_14",
+                "flipkart_fashion_kids-clothing_15",
+                "flipkart_fashion_kids-clothing_16",
+                "flipkart_fashion_kids-clothing_17",
+                "flipkart_fashion_kids-clothing_18",
+                "flipkart_fashion_kids-clothing_19",
+                "flipkart_fashion_kids-clothing_20"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_kids_clothing_3",
+            "retailer_name": "Hamleys",
+            "retailer_store_name": "Mitchell-Weber",
+            "contact_info": {
+                "email": "pesparza@example.com",
+                "phone": "001-756-522-6904x6176",
+                "address": "PSC 6610, Box 8502\nAPO AP 95519"
+            },
+            "performance_metrics": {
+                "average_rating": "4.1",
+                "total_orders": 1848,
+                "cancellation_rate": "4.6%",
+                "on_time_delivery_rate": "99.9%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_kids-clothing_21",
+                "flipkart_fashion_kids-clothing_22",
+                "flipkart_fashion_kids-clothing_23",
+                "flipkart_fashion_kids-clothing_24",
+                "flipkart_fashion_kids-clothing_25",
+                "flipkart_fashion_kids-clothing_26",
+                "flipkart_fashion_kids-clothing_27",
+                "flipkart_fashion_kids-clothing_28",
+                "flipkart_fashion_kids-clothing_29",
+                "flipkart_fashion_kids-clothing_30"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_kids_clothing_4",
+            "retailer_name": "Gini & Jony",
+            "retailer_store_name": "Perez-Washington",
+            "contact_info": {
+                "email": "johnsonelizabeth@example.org",
+                "phone": "(513)517-8895",
+                "address": "636 Amy Inlet Apt. 809\nFraziermouth, VI 57720"
+            },
+            "performance_metrics": {
+                "average_rating": "4.2",
+                "total_orders": 3938,
+                "cancellation_rate": "4.6%",
+                "on_time_delivery_rate": "98.9%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_kids-clothing_31",
+                "flipkart_fashion_kids-clothing_32",
+                "flipkart_fashion_kids-clothing_33",
+                "flipkart_fashion_kids-clothing_34",
+                "flipkart_fashion_kids-clothing_35",
+                "flipkart_fashion_kids-clothing_36",
+                "flipkart_fashion_kids-clothing_37",
+                "flipkart_fashion_kids-clothing_38",
+                "flipkart_fashion_kids-clothing_39",
+                "flipkart_fashion_kids-clothing_40"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_kids_clothing_5",
+            "retailer_name": "Lilliput",
+            "retailer_store_name": "Mclean, Morgan and Edwards",
+            "contact_info": {
+                "email": "mkennedy@example.net",
+                "phone": "+1-892-755-2814x496",
+                "address": "80008 Stone Lake Suite 599\nPort Sydneyberg, WA 00804"
+            },
+            "performance_metrics": {
+                "average_rating": "4.9",
+                "total_orders": 2669,
+                "cancellation_rate": "2.2%",
+                "on_time_delivery_rate": "99.3%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_kids-clothing_41",
+                "flipkart_fashion_kids-clothing_42",
+                "flipkart_fashion_kids-clothing_43",
+                "flipkart_fashion_kids-clothing_44",
+                "flipkart_fashion_kids-clothing_45",
+                "flipkart_fashion_kids-clothing_46",
+                "flipkart_fashion_kids-clothing_47",
+                "flipkart_fashion_kids-clothing_48",
+                "flipkart_fashion_kids-clothing_49",
+                "flipkart_fashion_kids-clothing_50"
+            ]
+        }
+    ],
+    "footwear": [
+        {
+            "retailer_id": "flipkart_seller_footwear_1",
+            "retailer_name": "Nike",
+            "retailer_store_name": "Preston-Johnson",
+            "contact_info": {
+                "email": "jrichardson@example.com",
+                "phone": "263-486-0958",
+                "address": "32320 Osborne Forks\nEast Tracy, DC 96081"
+            },
+            "performance_metrics": {
+                "average_rating": "4.9",
+                "total_orders": 2976,
+                "cancellation_rate": "3.9%",
+                "on_time_delivery_rate": "96.5%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_footwear_1",
+                "flipkart_fashion_footwear_2",
+                "flipkart_fashion_footwear_3",
+                "flipkart_fashion_footwear_4",
+                "flipkart_fashion_footwear_5",
+                "flipkart_fashion_footwear_6",
+                "flipkart_fashion_footwear_7",
+                "flipkart_fashion_footwear_8",
+                "flipkart_fashion_footwear_9",
+                "flipkart_fashion_footwear_10"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_footwear_2",
+            "retailer_name": "Adidas",
+            "retailer_store_name": "Mason-Campbell",
+            "contact_info": {
+                "email": "juliazavala@example.org",
+                "phone": "+1-898-354-2606x730",
+                "address": "091 Brandi Centers\nSouth Adam, AR 70438"
+            },
+            "performance_metrics": {
+                "average_rating": "4.3",
+                "total_orders": 2444,
+                "cancellation_rate": "4.8%",
+                "on_time_delivery_rate": "95.1%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_footwear_11",
+                "flipkart_fashion_footwear_12",
+                "flipkart_fashion_footwear_13",
+                "flipkart_fashion_footwear_14",
+                "flipkart_fashion_footwear_15",
+                "flipkart_fashion_footwear_16",
+                "flipkart_fashion_footwear_17",
+                "flipkart_fashion_footwear_18",
+                "flipkart_fashion_footwear_19",
+                "flipkart_fashion_footwear_20"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_footwear_3",
+            "retailer_name": "Woodland",
+            "retailer_store_name": "Burns-Collier",
+            "contact_info": {
+                "email": "alexis54@example.org",
+                "phone": "001-617-982-5892x9009",
+                "address": "66341 Guerrero Square Apt. 091\nKrauseside, VA 25291"
+            },
+            "performance_metrics": {
+                "average_rating": "4.1",
+                "total_orders": 1575,
+                "cancellation_rate": "1.0%",
+                "on_time_delivery_rate": "95.4%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_footwear_21",
+                "flipkart_fashion_footwear_22",
+                "flipkart_fashion_footwear_23",
+                "flipkart_fashion_footwear_24",
+                "flipkart_fashion_footwear_25",
+                "flipkart_fashion_footwear_26",
+                "flipkart_fashion_footwear_27",
+                "flipkart_fashion_footwear_28",
+                "flipkart_fashion_footwear_29",
+                "flipkart_fashion_footwear_30"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_footwear_4",
+            "retailer_name": "Reebok",
+            "retailer_store_name": "Patterson, Davidson and Pearson",
+            "contact_info": {
+                "email": "browntracy@example.net",
+                "phone": "325-462-2522x41626",
+                "address": "1944 Hale Lake\nSouth Isaac, DC 97579"
+            },
+            "performance_metrics": {
+                "average_rating": "4.2",
+                "total_orders": 1020,
+                "cancellation_rate": "1.4%",
+                "on_time_delivery_rate": "96.2%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_footwear_31",
+                "flipkart_fashion_footwear_32",
+                "flipkart_fashion_footwear_33",
+                "flipkart_fashion_footwear_34",
+                "flipkart_fashion_footwear_35",
+                "flipkart_fashion_footwear_36",
+                "flipkart_fashion_footwear_37",
+                "flipkart_fashion_footwear_38",
+                "flipkart_fashion_footwear_39",
+                "flipkart_fashion_footwear_40"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_footwear_5",
+            "retailer_name": "Puma",
+            "retailer_store_name": "Davis, Johnson and Meyers",
+            "contact_info": {
+                "email": "elizabethmorton@example.com",
+                "phone": "001-634-368-6007x0992",
+                "address": "544 Tucker Coves\nNew Margaret, MD 31308"
+            },
+            "performance_metrics": {
+                "average_rating": "4.4",
+                "total_orders": 1895,
+                "cancellation_rate": "3.2%",
+                "on_time_delivery_rate": "99.4%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_footwear_41",
+                "flipkart_fashion_footwear_42",
+                "flipkart_fashion_footwear_43",
+                "flipkart_fashion_footwear_44",
+                "flipkart_fashion_footwear_45",
+                "flipkart_fashion_footwear_46",
+                "flipkart_fashion_footwear_47",
+                "flipkart_fashion_footwear_48",
+                "flipkart_fashion_footwear_49",
+                "flipkart_fashion_footwear_50"
+            ]
+        }
+    ],
+    "bags-backpacks": [
+        {
+            "retailer_id": "flipkart_seller_bags_backpacks_1",
+            "retailer_name": "Wildcraft",
+            "retailer_store_name": "Morales, Rice and Cook",
+            "contact_info": {
+                "email": "robert86@example.net",
+                "phone": "5072963272",
+                "address": "5165 Dominique Vista\nMurrayview, MH 72445"
+            },
+            "performance_metrics": {
+                "average_rating": "4.4",
+                "total_orders": 3888,
+                "cancellation_rate": "3.0%",
+                "on_time_delivery_rate": "98.7%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_bags-backpacks_1",
+                "flipkart_fashion_bags-backpacks_2",
+                "flipkart_fashion_bags-backpacks_3",
+                "flipkart_fashion_bags-backpacks_4",
+                "flipkart_fashion_bags-backpacks_5",
+                "flipkart_fashion_bags-backpacks_6",
+                "flipkart_fashion_bags-backpacks_7",
+                "flipkart_fashion_bags-backpacks_8",
+                "flipkart_fashion_bags-backpacks_9",
+                "flipkart_fashion_bags-backpacks_10"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_bags_backpacks_2",
+            "retailer_name": "American Tourister",
+            "retailer_store_name": "Wilkerson-Howell",
+            "contact_info": {
+                "email": "dennis90@example.org",
+                "phone": "+1-891-979-2048",
+                "address": "8118 Eddie Spur\nHoustonhaven, WY 45686"
+            },
+            "performance_metrics": {
+                "average_rating": "4.1",
+                "total_orders": 2147,
+                "cancellation_rate": "4.9%",
+                "on_time_delivery_rate": "97.8%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_bags-backpacks_11",
+                "flipkart_fashion_bags-backpacks_12",
+                "flipkart_fashion_bags-backpacks_13",
+                "flipkart_fashion_bags-backpacks_14",
+                "flipkart_fashion_bags-backpacks_15",
+                "flipkart_fashion_bags-backpacks_16",
+                "flipkart_fashion_bags-backpacks_17",
+                "flipkart_fashion_bags-backpacks_18",
+                "flipkart_fashion_bags-backpacks_19",
+                "flipkart_fashion_bags-backpacks_20"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_bags_backpacks_3",
+            "retailer_name": "Samsonite",
+            "retailer_store_name": "Gardner, Chung and Vega",
+            "contact_info": {
+                "email": "lcooper@example.com",
+                "phone": "+1-436-252-3253",
+                "address": "9374 Kim Pines\nBlackwellland, MH 89794"
+            },
+            "performance_metrics": {
+                "average_rating": "4.1",
+                "total_orders": 2286,
+                "cancellation_rate": "2.0%",
+                "on_time_delivery_rate": "99.9%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_bags-backpacks_21",
+                "flipkart_fashion_bags-backpacks_22",
+                "flipkart_fashion_bags-backpacks_23",
+                "flipkart_fashion_bags-backpacks_24",
+                "flipkart_fashion_bags-backpacks_25",
+                "flipkart_fashion_bags-backpacks_26",
+                "flipkart_fashion_bags-backpacks_27",
+                "flipkart_fashion_bags-backpacks_28",
+                "flipkart_fashion_bags-backpacks_29",
+                "flipkart_fashion_bags-backpacks_30"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_bags_backpacks_4",
+            "retailer_name": "Lavie",
+            "retailer_store_name": "Johnson, Moss and Cole",
+            "contact_info": {
+                "email": "rjenkins@example.org",
+                "phone": "9422749081",
+                "address": "43394 Ashley Lakes\nEast Matthewville, GU 33269"
+            },
+            "performance_metrics": {
+                "average_rating": "4.8",
+                "total_orders": 3602,
+                "cancellation_rate": "3.1%",
+                "on_time_delivery_rate": "96.3%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_bags-backpacks_31",
+                "flipkart_fashion_bags-backpacks_32",
+                "flipkart_fashion_bags-backpacks_33",
+                "flipkart_fashion_bags-backpacks_34",
+                "flipkart_fashion_bags-backpacks_35",
+                "flipkart_fashion_bags-backpacks_36",
+                "flipkart_fashion_bags-backpacks_37",
+                "flipkart_fashion_bags-backpacks_38",
+                "flipkart_fashion_bags-backpacks_39",
+                "flipkart_fashion_bags-backpacks_40"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_bags_backpacks_5",
+            "retailer_name": "Baggit",
+            "retailer_store_name": "Graves, Townsend and Gonzalez",
+            "contact_info": {
+                "email": "charleskatherine@example.net",
+                "phone": "+1-706-562-3285x174",
+                "address": "7944 Linda Parkway Apt. 211\nNorth Jonathan, PW 88511"
+            },
+            "performance_metrics": {
+                "average_rating": "4.1",
+                "total_orders": 4382,
+                "cancellation_rate": "1.2%",
+                "on_time_delivery_rate": "96.8%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_bags-backpacks_41",
+                "flipkart_fashion_bags-backpacks_42",
+                "flipkart_fashion_bags-backpacks_43",
+                "flipkart_fashion_bags-backpacks_44",
+                "flipkart_fashion_bags-backpacks_45",
+                "flipkart_fashion_bags-backpacks_46",
+                "flipkart_fashion_bags-backpacks_47",
+                "flipkart_fashion_bags-backpacks_48",
+                "flipkart_fashion_bags-backpacks_49",
+                "flipkart_fashion_bags-backpacks_50"
+            ]
+        }
+    ],
+    "watches": [
+        {
+            "retailer_id": "flipkart_seller_watches_1",
+            "retailer_name": "Titan",
+            "retailer_store_name": "Garcia-Williams",
+            "contact_info": {
+                "email": "christina43@example.com",
+                "phone": "001-206-202-3862x6116",
+                "address": "314 Phillip Land Apt. 587\nPort Seanview, MT 66810"
+            },
+            "performance_metrics": {
+                "average_rating": "4.6",
+                "total_orders": 1404,
+                "cancellation_rate": "1.7%",
+                "on_time_delivery_rate": "98.8%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_watches_1",
+                "flipkart_fashion_watches_2",
+                "flipkart_fashion_watches_3",
+                "flipkart_fashion_watches_4",
+                "flipkart_fashion_watches_5",
+                "flipkart_fashion_watches_6",
+                "flipkart_fashion_watches_7",
+                "flipkart_fashion_watches_8",
+                "flipkart_fashion_watches_9",
+                "flipkart_fashion_watches_10"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_watches_2",
+            "retailer_name": "Casio",
+            "retailer_store_name": "Lewis Group",
+            "contact_info": {
+                "email": "vwyatt@example.net",
+                "phone": "001-654-814-8539x8439",
+                "address": "3753 Heather Lock Suite 932\nRuizbury, MD 19929"
+            },
+            "performance_metrics": {
+                "average_rating": "4.6",
+                "total_orders": 2999,
+                "cancellation_rate": "2.9%",
+                "on_time_delivery_rate": "98.7%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_watches_11",
+                "flipkart_fashion_watches_12",
+                "flipkart_fashion_watches_13",
+                "flipkart_fashion_watches_14",
+                "flipkart_fashion_watches_15",
+                "flipkart_fashion_watches_16",
+                "flipkart_fashion_watches_17",
+                "flipkart_fashion_watches_18",
+                "flipkart_fashion_watches_19",
+                "flipkart_fashion_watches_20"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_watches_3",
+            "retailer_name": "Rolex",
+            "retailer_store_name": "Ali, Vaughn and Mitchell",
+            "contact_info": {
+                "email": "kimberly92@example.net",
+                "phone": "(464)955-6947",
+                "address": "14870 Heather Coves Apt. 373\nSalinasborough, ID 30099"
+            },
+            "performance_metrics": {
+                "average_rating": "5.0",
+                "total_orders": 1931,
+                "cancellation_rate": "4.6%",
+                "on_time_delivery_rate": "99.6%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_watches_21",
+                "flipkart_fashion_watches_22",
+                "flipkart_fashion_watches_23",
+                "flipkart_fashion_watches_24",
+                "flipkart_fashion_watches_25",
+                "flipkart_fashion_watches_26",
+                "flipkart_fashion_watches_27",
+                "flipkart_fashion_watches_28",
+                "flipkart_fashion_watches_29",
+                "flipkart_fashion_watches_30"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_watches_4",
+            "retailer_name": "Seiko",
+            "retailer_store_name": "Osborne-Flowers",
+            "contact_info": {
+                "email": "rodriguezkatie@example.org",
+                "phone": "+1-678-521-6600x8713",
+                "address": "595 Abigail Extension Suite 927\nLake Stephanieville, MS 70975"
+            },
+            "performance_metrics": {
+                "average_rating": "4.0",
+                "total_orders": 2298,
+                "cancellation_rate": "1.5%",
+                "on_time_delivery_rate": "95.5%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_watches_31",
+                "flipkart_fashion_watches_32",
+                "flipkart_fashion_watches_33",
+                "flipkart_fashion_watches_34",
+                "flipkart_fashion_watches_35",
+                "flipkart_fashion_watches_36",
+                "flipkart_fashion_watches_37",
+                "flipkart_fashion_watches_38",
+                "flipkart_fashion_watches_39",
+                "flipkart_fashion_watches_40"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_watches_5",
+            "retailer_name": "Fossil",
+            "retailer_store_name": "Goodman, Bullock and Murray",
+            "contact_info": {
+                "email": "curtisgonzales@example.net",
+                "phone": "(419)460-1119x8661",
+                "address": "15196 Bethany Creek\nKevinland, MD 06652"
+            },
+            "performance_metrics": {
+                "average_rating": "4.5",
+                "total_orders": 2220,
+                "cancellation_rate": "2.4%",
+                "on_time_delivery_rate": "96.1%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_watches_41",
+                "flipkart_fashion_watches_42",
+                "flipkart_fashion_watches_43",
+                "flipkart_fashion_watches_44",
+                "flipkart_fashion_watches_45",
+                "flipkart_fashion_watches_46",
+                "flipkart_fashion_watches_47",
+                "flipkart_fashion_watches_48",
+                "flipkart_fashion_watches_49",
+                "flipkart_fashion_watches_50"
+            ]
+        }
+    ],
+    "sunglasses": [
+        {
+            "retailer_id": "flipkart_seller_sunglasses_1",
+            "retailer_name": "Ray-Ban",
+            "retailer_store_name": "Alexander, Gross and Hernandez",
+            "contact_info": {
+                "email": "pdennis@example.org",
+                "phone": "001-410-217-1517x0583",
+                "address": "USCGC Crawford\nFPO AA 11035"
+            },
+            "performance_metrics": {
+                "average_rating": "4.4",
+                "total_orders": 2619,
+                "cancellation_rate": "3.0%",
+                "on_time_delivery_rate": "98.1%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_sunglasses_1",
+                "flipkart_fashion_sunglasses_2",
+                "flipkart_fashion_sunglasses_3",
+                "flipkart_fashion_sunglasses_4",
+                "flipkart_fashion_sunglasses_5",
+                "flipkart_fashion_sunglasses_6",
+                "flipkart_fashion_sunglasses_7",
+                "flipkart_fashion_sunglasses_8",
+                "flipkart_fashion_sunglasses_9",
+                "flipkart_fashion_sunglasses_10"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_sunglasses_2",
+            "retailer_name": "Oakley",
+            "retailer_store_name": "Skinner, Smith and Mora",
+            "contact_info": {
+                "email": "stephaniecabrera@example.org",
+                "phone": "+1-749-307-8174",
+                "address": "84736 Ashley Field Apt. 939\nNicholasborough, PA 69211"
+            },
+            "performance_metrics": {
+                "average_rating": "4.7",
+                "total_orders": 3328,
+                "cancellation_rate": "4.6%",
+                "on_time_delivery_rate": "95.1%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_sunglasses_11",
+                "flipkart_fashion_sunglasses_12",
+                "flipkart_fashion_sunglasses_13",
+                "flipkart_fashion_sunglasses_14",
+                "flipkart_fashion_sunglasses_15",
+                "flipkart_fashion_sunglasses_16",
+                "flipkart_fashion_sunglasses_17",
+                "flipkart_fashion_sunglasses_18",
+                "flipkart_fashion_sunglasses_19",
+                "flipkart_fashion_sunglasses_20"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_sunglasses_3",
+            "retailer_name": "Maui Jim",
+            "retailer_store_name": "Flores-Burton",
+            "contact_info": {
+                "email": "cassandrarichardson@example.net",
+                "phone": "+1-492-309-7012x30874",
+                "address": "20770 Bell Lodge\nSouth Meganfort, MP 65447"
+            },
+            "performance_metrics": {
+                "average_rating": "4.7",
+                "total_orders": 1066,
+                "cancellation_rate": "4.3%",
+                "on_time_delivery_rate": "99.6%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_sunglasses_21",
+                "flipkart_fashion_sunglasses_22",
+                "flipkart_fashion_sunglasses_23",
+                "flipkart_fashion_sunglasses_24",
+                "flipkart_fashion_sunglasses_25",
+                "flipkart_fashion_sunglasses_26",
+                "flipkart_fashion_sunglasses_27",
+                "flipkart_fashion_sunglasses_28",
+                "flipkart_fashion_sunglasses_29",
+                "flipkart_fashion_sunglasses_30"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_sunglasses_4",
+            "retailer_name": "Fastrack",
+            "retailer_store_name": "Bennett-Huffman",
+            "contact_info": {
+                "email": "salazarnicholas@example.com",
+                "phone": "976-234-4809x26366",
+                "address": "9796 Holland Cliff\nFleminghaven, OK 09146"
+            },
+            "performance_metrics": {
+                "average_rating": "4.0",
+                "total_orders": 4038,
+                "cancellation_rate": "4.7%",
+                "on_time_delivery_rate": "99.1%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_sunglasses_31",
+                "flipkart_fashion_sunglasses_32",
+                "flipkart_fashion_sunglasses_33",
+                "flipkart_fashion_sunglasses_34",
+                "flipkart_fashion_sunglasses_35",
+                "flipkart_fashion_sunglasses_36",
+                "flipkart_fashion_sunglasses_37",
+                "flipkart_fashion_sunglasses_38",
+                "flipkart_fashion_sunglasses_39",
+                "flipkart_fashion_sunglasses_40"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_sunglasses_5",
+            "retailer_name": "Police",
+            "retailer_store_name": "Johns, Anderson and Fleming",
+            "contact_info": {
+                "email": "chavezvincent@example.net",
+                "phone": "+1-535-835-3624",
+                "address": "88552 Maria River Suite 795\nKellyfurt, NJ 46683"
+            },
+            "performance_metrics": {
+                "average_rating": "4.3",
+                "total_orders": 2054,
+                "cancellation_rate": "3.7%",
+                "on_time_delivery_rate": "99.9%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_sunglasses_41",
+                "flipkart_fashion_sunglasses_42",
+                "flipkart_fashion_sunglasses_43",
+                "flipkart_fashion_sunglasses_44",
+                "flipkart_fashion_sunglasses_45",
+                "flipkart_fashion_sunglasses_46",
+                "flipkart_fashion_sunglasses_47",
+                "flipkart_fashion_sunglasses_48",
+                "flipkart_fashion_sunglasses_49",
+                "flipkart_fashion_sunglasses_50"
+            ]
+        }
+    ],
+    "hats-caps": [
+        {
+            "retailer_id": "flipkart_seller_hats_caps_1",
+            "retailer_name": "New Era",
+            "retailer_store_name": "Hayes-White",
+            "contact_info": {
+                "email": "susan70@example.net",
+                "phone": "388.467.7482",
+                "address": "USS Rodriguez\nFPO AE 01010"
+            },
+            "performance_metrics": {
+                "average_rating": "4.2",
+                "total_orders": 4883,
+                "cancellation_rate": "2.3%",
+                "on_time_delivery_rate": "97.4%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_hats-caps_1",
+                "flipkart_fashion_hats-caps_2",
+                "flipkart_fashion_hats-caps_3",
+                "flipkart_fashion_hats-caps_4",
+                "flipkart_fashion_hats-caps_5",
+                "flipkart_fashion_hats-caps_6",
+                "flipkart_fashion_hats-caps_7",
+                "flipkart_fashion_hats-caps_8",
+                "flipkart_fashion_hats-caps_9",
+                "flipkart_fashion_hats-caps_10"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_hats_caps_2",
+            "retailer_name": "Adidas",
+            "retailer_store_name": "West, Reilly and Summers",
+            "contact_info": {
+                "email": "bradhall@example.net",
+                "phone": "987-631-8712x733",
+                "address": "7398 Arias Club Apt. 915\nEast Michael, AS 23625"
+            },
+            "performance_metrics": {
+                "average_rating": "4.0",
+                "total_orders": 2414,
+                "cancellation_rate": "2.3%",
+                "on_time_delivery_rate": "96.2%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_hats-caps_11",
+                "flipkart_fashion_hats-caps_12",
+                "flipkart_fashion_hats-caps_13",
+                "flipkart_fashion_hats-caps_14",
+                "flipkart_fashion_hats-caps_15",
+                "flipkart_fashion_hats-caps_16",
+                "flipkart_fashion_hats-caps_17",
+                "flipkart_fashion_hats-caps_18",
+                "flipkart_fashion_hats-caps_19",
+                "flipkart_fashion_hats-caps_20"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_hats_caps_3",
+            "retailer_name": "Nike",
+            "retailer_store_name": "Rice and Sons",
+            "contact_info": {
+                "email": "samuel85@example.org",
+                "phone": "+1-870-388-9008x23524",
+                "address": "76787 Justin Radial Apt. 833\nHughesstad, AR 62486"
+            },
+            "performance_metrics": {
+                "average_rating": "4.2",
+                "total_orders": 4926,
+                "cancellation_rate": "1.2%",
+                "on_time_delivery_rate": "98.8%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_hats-caps_21",
+                "flipkart_fashion_hats-caps_22",
+                "flipkart_fashion_hats-caps_23",
+                "flipkart_fashion_hats-caps_24",
+                "flipkart_fashion_hats-caps_25",
+                "flipkart_fashion_hats-caps_26",
+                "flipkart_fashion_hats-caps_27",
+                "flipkart_fashion_hats-caps_28",
+                "flipkart_fashion_hats-caps_29",
+                "flipkart_fashion_hats-caps_30"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_hats_caps_4",
+            "retailer_name": "Reebok",
+            "retailer_store_name": "Figueroa Group",
+            "contact_info": {
+                "email": "cunninghamjohn@example.net",
+                "phone": "+1-274-288-7745x3764",
+                "address": "72282 Christy Hollow\nSouth Jesseborough, KS 80279"
+            },
+            "performance_metrics": {
+                "average_rating": "4.9",
+                "total_orders": 4420,
+                "cancellation_rate": "4.7%",
+                "on_time_delivery_rate": "99.5%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_hats-caps_31",
+                "flipkart_fashion_hats-caps_32",
+                "flipkart_fashion_hats-caps_33",
+                "flipkart_fashion_hats-caps_34",
+                "flipkart_fashion_hats-caps_35",
+                "flipkart_fashion_hats-caps_36",
+                "flipkart_fashion_hats-caps_37",
+                "flipkart_fashion_hats-caps_38",
+                "flipkart_fashion_hats-caps_39",
+                "flipkart_fashion_hats-caps_40"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_hats_caps_5",
+            "retailer_name": "Puma",
+            "retailer_store_name": "Ware-Allen",
+            "contact_info": {
+                "email": "weberjohn@example.org",
+                "phone": "001-249-715-5486x911",
+                "address": "661 Reid Plaza Apt. 122\nWeberton, CA 02088"
+            },
+            "performance_metrics": {
+                "average_rating": "4.8",
+                "total_orders": 2707,
+                "cancellation_rate": "4.3%",
+                "on_time_delivery_rate": "95.8%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_hats-caps_41",
+                "flipkart_fashion_hats-caps_42",
+                "flipkart_fashion_hats-caps_43",
+                "flipkart_fashion_hats-caps_44",
+                "flipkart_fashion_hats-caps_45",
+                "flipkart_fashion_hats-caps_46",
+                "flipkart_fashion_hats-caps_47",
+                "flipkart_fashion_hats-caps_48",
+                "flipkart_fashion_hats-caps_49",
+                "flipkart_fashion_hats-caps_50"
+            ]
+        }
+    ],
+    "jewelry": [
+        {
+            "retailer_id": "flipkart_seller_jewelry_1",
+            "retailer_name": "Tanishq",
+            "retailer_store_name": "Webb, Green and Williams",
+            "contact_info": {
+                "email": "reeddaniel@example.net",
+                "phone": "(942)528-4864x17903",
+                "address": "6968 Houston Ridges Suite 123\nBenjaminport, OK 18854"
+            },
+            "performance_metrics": {
+                "average_rating": "4.2",
+                "total_orders": 3855,
+                "cancellation_rate": "3.4%",
+                "on_time_delivery_rate": "96.7%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_jewelry_1",
+                "flipkart_fashion_jewelry_2",
+                "flipkart_fashion_jewelry_3",
+                "flipkart_fashion_jewelry_4",
+                "flipkart_fashion_jewelry_5",
+                "flipkart_fashion_jewelry_6",
+                "flipkart_fashion_jewelry_7",
+                "flipkart_fashion_jewelry_8",
+                "flipkart_fashion_jewelry_9",
+                "flipkart_fashion_jewelry_10"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_jewelry_2",
+            "retailer_name": "Kalyan Jewellers",
+            "retailer_store_name": "Mccall LLC",
+            "contact_info": {
+                "email": "marcnorman@example.org",
+                "phone": "654.723.6481",
+                "address": "917 Kerr Mill Suite 227\nJohnstonchester, DE 41359"
+            },
+            "performance_metrics": {
+                "average_rating": "4.6",
+                "total_orders": 4517,
+                "cancellation_rate": "2.1%",
+                "on_time_delivery_rate": "97.0%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_jewelry_11",
+                "flipkart_fashion_jewelry_12",
+                "flipkart_fashion_jewelry_13",
+                "flipkart_fashion_jewelry_14",
+                "flipkart_fashion_jewelry_15",
+                "flipkart_fashion_jewelry_16",
+                "flipkart_fashion_jewelry_17",
+                "flipkart_fashion_jewelry_18",
+                "flipkart_fashion_jewelry_19",
+                "flipkart_fashion_jewelry_20"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_jewelry_3",
+            "retailer_name": "Malabar Gold",
+            "retailer_store_name": "Thompson LLC",
+            "contact_info": {
+                "email": "tamaragreen@example.org",
+                "phone": "236.982.9166x12018",
+                "address": "81856 Tucker Valley\nWest Richardburgh, AS 84427"
+            },
+            "performance_metrics": {
+                "average_rating": "4.6",
+                "total_orders": 2125,
+                "cancellation_rate": "3.4%",
+                "on_time_delivery_rate": "98.4%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_jewelry_21",
+                "flipkart_fashion_jewelry_22",
+                "flipkart_fashion_jewelry_23",
+                "flipkart_fashion_jewelry_24",
+                "flipkart_fashion_jewelry_25",
+                "flipkart_fashion_jewelry_26",
+                "flipkart_fashion_jewelry_27",
+                "flipkart_fashion_jewelry_28",
+                "flipkart_fashion_jewelry_29",
+                "flipkart_fashion_jewelry_30"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_jewelry_4",
+            "retailer_name": "CaratLane",
+            "retailer_store_name": "Vance-Rivera",
+            "contact_info": {
+                "email": "yolanda96@example.com",
+                "phone": "001-309-586-1375x49453",
+                "address": "488 Paul Square\nNathanstad, IL 84690"
+            },
+            "performance_metrics": {
+                "average_rating": "4.1",
+                "total_orders": 4537,
+                "cancellation_rate": "3.6%",
+                "on_time_delivery_rate": "95.2%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_jewelry_31",
+                "flipkart_fashion_jewelry_32",
+                "flipkart_fashion_jewelry_33",
+                "flipkart_fashion_jewelry_34",
+                "flipkart_fashion_jewelry_35",
+                "flipkart_fashion_jewelry_36",
+                "flipkart_fashion_jewelry_37",
+                "flipkart_fashion_jewelry_38",
+                "flipkart_fashion_jewelry_39",
+                "flipkart_fashion_jewelry_40"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_jewelry_5",
+            "retailer_name": "Pendants",
+            "retailer_store_name": "Smith-Nguyen",
+            "contact_info": {
+                "email": "donaldjones@example.com",
+                "phone": "+1-244-388-1076x223",
+                "address": "Unit 2547 Box 8208\nDPO AA 96814"
+            },
+            "performance_metrics": {
+                "average_rating": "4.7",
+                "total_orders": 3897,
+                "cancellation_rate": "4.3%",
+                "on_time_delivery_rate": "98.4%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_jewelry_41",
+                "flipkart_fashion_jewelry_42",
+                "flipkart_fashion_jewelry_43",
+                "flipkart_fashion_jewelry_44",
+                "flipkart_fashion_jewelry_45",
+                "flipkart_fashion_jewelry_46",
+                "flipkart_fashion_jewelry_47",
+                "flipkart_fashion_jewelry_48",
+                "flipkart_fashion_jewelry_49",
+                "flipkart_fashion_jewelry_50"
+            ]
+        }
+    ],
+    "sportswear": [
+        {
+            "retailer_id": "flipkart_seller_sportswear_1",
+            "retailer_name": "Decathlon",
+            "retailer_store_name": "Graham, Mclaughlin and Cisneros",
+            "contact_info": {
+                "email": "ngross@example.net",
+                "phone": "621.655.4962",
+                "address": "7386 Sanchez Camp\nWest Bryan, WI 55663"
+            },
+            "performance_metrics": {
+                "average_rating": "4.9",
+                "total_orders": 3861,
+                "cancellation_rate": "3.6%",
+                "on_time_delivery_rate": "95.1%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_sportswear_1",
+                "flipkart_fashion_sportswear_2",
+                "flipkart_fashion_sportswear_3",
+                "flipkart_fashion_sportswear_4",
+                "flipkart_fashion_sportswear_5",
+                "flipkart_fashion_sportswear_6",
+                "flipkart_fashion_sportswear_7",
+                "flipkart_fashion_sportswear_8",
+                "flipkart_fashion_sportswear_9",
+                "flipkart_fashion_sportswear_10"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_sportswear_2",
+            "retailer_name": "Nike",
+            "retailer_store_name": "Thomas, Jones and Jackson",
+            "contact_info": {
+                "email": "jessica08@example.net",
+                "phone": "(240)401-8103x552",
+                "address": "425 Baker Parkways Suite 478\nDonaldberg, CA 48480"
+            },
+            "performance_metrics": {
+                "average_rating": "4.4",
+                "total_orders": 3563,
+                "cancellation_rate": "1.5%",
+                "on_time_delivery_rate": "95.5%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_sportswear_11",
+                "flipkart_fashion_sportswear_12",
+                "flipkart_fashion_sportswear_13",
+                "flipkart_fashion_sportswear_14",
+                "flipkart_fashion_sportswear_15",
+                "flipkart_fashion_sportswear_16",
+                "flipkart_fashion_sportswear_17",
+                "flipkart_fashion_sportswear_18",
+                "flipkart_fashion_sportswear_19",
+                "flipkart_fashion_sportswear_20"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_sportswear_3",
+            "retailer_name": "Adidas",
+            "retailer_store_name": "Ross-Mckenzie",
+            "contact_info": {
+                "email": "ihayes@example.net",
+                "phone": "+1-678-783-7111x25783",
+                "address": "02763 Li Walks\nNew Todd, WV 98802"
+            },
+            "performance_metrics": {
+                "average_rating": "4.2",
+                "total_orders": 4184,
+                "cancellation_rate": "1.8%",
+                "on_time_delivery_rate": "99.3%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_sportswear_21",
+                "flipkart_fashion_sportswear_22",
+                "flipkart_fashion_sportswear_23",
+                "flipkart_fashion_sportswear_24",
+                "flipkart_fashion_sportswear_25",
+                "flipkart_fashion_sportswear_26",
+                "flipkart_fashion_sportswear_27",
+                "flipkart_fashion_sportswear_28",
+                "flipkart_fashion_sportswear_29",
+                "flipkart_fashion_sportswear_30"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_sportswear_4",
+            "retailer_name": "Puma",
+            "retailer_store_name": "Hawkins Group",
+            "contact_info": {
+                "email": "juan70@example.com",
+                "phone": "001-875-802-4469x798",
+                "address": "3719 Norton Cliff\nJamesstad, OK 72601"
+            },
+            "performance_metrics": {
+                "average_rating": "5.0",
+                "total_orders": 1857,
+                "cancellation_rate": "3.7%",
+                "on_time_delivery_rate": "96.0%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_sportswear_31",
+                "flipkart_fashion_sportswear_32",
+                "flipkart_fashion_sportswear_33",
+                "flipkart_fashion_sportswear_34",
+                "flipkart_fashion_sportswear_35",
+                "flipkart_fashion_sportswear_36",
+                "flipkart_fashion_sportswear_37",
+                "flipkart_fashion_sportswear_38",
+                "flipkart_fashion_sportswear_39",
+                "flipkart_fashion_sportswear_40"
+            ]
+        },
+        {
+            "retailer_id": "flipkart_seller_sportswear_5",
+            "retailer_name": "Reebok",
+            "retailer_store_name": "Murray-Wilson",
+            "contact_info": {
+                "email": "cooperluke@example.com",
+                "phone": "226.354.9230x73962",
+                "address": "024 Hester Track Suite 556\nJeremyshire, MO 58388"
+            },
+            "performance_metrics": {
+                "average_rating": "4.7",
+                "total_orders": 4372,
+                "cancellation_rate": "4.2%",
+                "on_time_delivery_rate": "95.0%"
+            },
+            "sellsProducts": [
+                "flipkart_fashion_sportswear_41",
+                "flipkart_fashion_sportswear_42",
+                "flipkart_fashion_sportswear_43",
+                "flipkart_fashion_sportswear_44",
+                "flipkart_fashion_sportswear_45",
+                "flipkart_fashion_sportswear_46",
+                "flipkart_fashion_sportswear_47",
+                "flipkart_fashion_sportswear_48",
+                "flipkart_fashion_sportswear_49",
+                "flipkart_fashion_sportswear_50"
+            ]
+        }
+    ]
+}

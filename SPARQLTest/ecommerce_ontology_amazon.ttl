@@ -1,0 +1,481 @@
+@prefix : <http://delta.org#> .
+@prefix AmazonNS: <http://delta.org/amazon#> .
+@prefix CustomerNS: <http://delta.org/amazon/CustomerNS#> .
+@prefix OrderNS: <http://delta.org/amazon/OrderNS#> .
+@prefix ProductNS: <http://delta.org/amazon/ProductNS#> .
+@prefix ProductShippingOptionsNS: <hhttp://delta.org/amazon/ProductShippingOptionsNS#> .
+@prefix SellerNS: <http://delta.org/amazon/SellerNS#> .
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Amazon is a subclass of Ecommerce
+:Amazon a rdfs:Class ;
+    rdfs:subClassOf :Ecommerce .
+
+
+# Relations between Amazon and its Classes
+ProductNS:Category a rdfs:Class .
+ProductNS:Brand a rdfs:Class .
+AmazonNS:Product a rdfs:Class .
+AmazonNS:User a rdfs:Class .
+
+## Object Properties (relationships from Amazon to other classes)
+AmazonNS:hasCategory a owl:ObjectProperty ;
+    rdfs:domain :Amazon ;
+    rdfs:range ProductNS:Category .
+
+AmazonNS:hasBrand a owl:ObjectProperty ;
+    rdfs:domain :Amazon ;
+    rdfs:range ProductNS:Brand .
+
+AmazonNS:hasProduct a owl:ObjectProperty ;
+    rdfs:domain :Amazon ;
+    rdfs:range AmazonNS:Product .
+
+AmazonNS:hasUser a owl:ObjectProperty ;
+    rdfs:domain :Amazon ;
+    rdfs:range AmazonNS:User .
+
+
+# Relationships between Product, Brand, and Category
+
+ProductNS:hasBrand a owl:ObjectProperty ;
+    rdfs:domain AmazonNS:Product ;
+    rdfs:range ProductNS:Brand .
+
+ProductNS:producesProduct a owl:ObjectProperty ;
+    rdfs:domain ProductNS:Brand ;
+    rdfs:range AmazonNS:Product .
+
+ProductNS:hasCategory a owl:ObjectProperty ;
+    rdfs:domain AmazonNS:Product ;
+    rdfs:range ProductNS:Category .
+
+ProductNS:hasProduct a owl:ObjectProperty ;
+    rdfs:domain ProductNS:Category ;
+    rdfs:range AmazonNS:Product .
+
+# Class Sub-Category, relation between Category, Sub-Category and Product
+ProductNS:SubCategory a rdfs:Class .
+
+## Relationships
+ProductNS:hasSubCategory a owl:ObjectProperty ;
+    rdfs:domain ProductNS:Category ;
+    rdfs:range ProductNS:SubCategory .
+
+ProductNS:hasProduct a owl:ObjectProperty ;
+    rdfs:domain ProductNS:SubCategory ;
+    rdfs:range AmazonNS:Product .
+
+# Classes of Product
+ProductNS:Price a rdfs:Class .
+ProductNS:Availability a rdfs:Class .
+ProductNS:Return_Policy a rdfs:Class .
+ProductNS:Rating a rdfs:Class .
+ProductNS:Dimensions a rdfs:Class .
+ProductNS:Shipping_Options a rdfs:Class .
+
+# Relationships from Product to above classes
+ProductNS:hasPrice a owl:ObjectProperty ;
+    rdfs:domain AmazonNS:Product ;
+    rdfs:range ProductNS:Price .
+
+ProductNS:hasAvailability a owl:ObjectProperty ;
+    rdfs:domain AmazonNS:Product ;
+    rdfs:range ProductNS:Availability .
+
+ProductNS:hasReturnPolicy a owl:ObjectProperty ;
+    rdfs:domain AmazonNS:Product ;
+    rdfs:range ProductNS:Return_Policy .
+
+ProductNS:hasRating a owl:ObjectProperty ;
+    rdfs:domain AmazonNS:Product ;
+    rdfs:range ProductNS:Rating .
+
+ProductNS:hasDimensions a owl:ObjectProperty ;
+    rdfs:domain AmazonNS:Product ;
+    rdfs:range ProductNS:Dimensions .
+
+ProductNS:hasShippingOptions a owl:ObjectProperty ;
+    rdfs:domain AmazonNS:Product ;
+    rdfs:range ProductNS:Shipping_Options .
+
+ProductNS:Return_Fee a rdfs:Class .
+
+ProductNS:hasReturnFee a owl:ObjectProperty ;
+    rdfs:domain ProductNS:Return_Policy ;
+    rdfs:range ProductNS:Return_Fee .
+
+# Define Order as a subclass of Product
+ProductNS:Order a rdfs:Class ;
+    rdfs:subClassOf AmazonNS:Product .
+
+OrderNS:Shipping_Info a rdfs:Class .
+
+OrderNS:hasShippingInfo a owl:ObjectProperty ;
+    rdfs:domain ProductNS:Order ;
+    rdfs:range OrderNS:Shipping_Info .
+
+## Shipping_Info of Order
+OrderNS:Price a rdfs:Class .
+OrderNS:Estimated_Delivery_Time a rdfs:Class .
+OrderNS:Address a rdfs:Class .
+
+OrderNS:hasShippingPrice a owl:ObjectProperty ;
+    rdfs:domain OrderNS:Shipping_Info ;
+    rdfs:range OrderNS:Price .
+
+OrderNS:hasDeliveryTime a owl:ObjectProperty ;
+    rdfs:domain OrderNS:Shipping_Info ;
+    rdfs:range OrderNS:Estimated_Delivery_Time .
+
+OrderNS:deliverTo a owl:ObjectProperty ;
+    rdfs:domain OrderNS:Shipping_Info ; 
+    rdfs:range OrderNS:Address .
+
+ProductShippingOptionsNS:Price a rdfs:Class .
+ProductShippingOptionsNS:Estimated_Delivery_Time a rdfs:Class .
+
+ProductNS:hasShippingPrice a owl:ObjectProperty ;
+    rdfs:domain ProductNS:Shipping_Options ;
+    rdfs:range ProductShippingOptionsNS:Price .
+
+
+ProductNS:hasDeliveryTime a owl:ObjectProperty ;
+    rdfs:domain ProductNS:Shipping_Options ;
+    rdfs:range ProductShippingOptionsNS:Estimated_Delivery_Time .
+    
+
+ProductNS:Order a rdfs:Class ;
+    rdfs:subClassOf AmazonNS:Product .
+AmazonNS:Customer a rdfs:Class ;
+    rdfs:subClassOf AmazonNS:User .
+
+AmazonNS:Seller a rdfs:Class ;
+    rdfs:subClassOf AmazonNS:User .
+
+CustomerNS:views a owl:ObjectProperty ;
+    rdfs:domain AmazonNS:Customer ;
+    rdfs:range AmazonNS:Product .
+
+ProductNS:hasSeller a owl:ObjectProperty ;
+    rdfs:domain AmazonNS:Product ;
+    rdfs:range AmazonNS:Seller .
+
+SellerNS:sells a owl:ObjectProperty ;
+    rdfs:domain AmazonNS:Seller ;
+    rdfs:range AmazonNS:Product .
+
+# Customer namespace classes 
+CustomerNS:Cart a rdfs:Class .
+CustomerNS:Wishlist a rdfs:Class .
+CustomerNS:Details a rdfs:Class .
+
+
+CustomerNS:hasCart a owl:ObjectProperty ;
+    rdfs:domain AmazonNS:Customer ;
+    rdfs:range CustomerNS:Cart .
+
+CustomerNS:hasWishlist a owl:ObjectProperty ;
+    rdfs:domain AmazonNS:Customer ;
+    rdfs:range CustomerNS:Wishlist .
+
+CustomerNS:hasDetails a owl:ObjectProperty ;
+    rdfs:domain AmazonNS:Customer ;
+    rdfs:range CustomerNS:Details .
+
+CustomerNS:hasOrder a owl:ObjectProperty ;
+    rdfs:domain CustomerNS:Cart ;
+    rdfs:range ProductNS:Order .
+
+CustomerNS:Address_Options a rdfs:Class .
+
+CustomerNS:hasAddress a owl:ObjectProperty ;
+    rdfs:domain CustomerNS:Details ;
+    rdfs:domain CustomerNS:Address_Options .
+
+SellerNS:Contact_Info a rdfs:Class .
+SellerNS:Performance_Metrics a rdfs:Class .
+
+
+SellerNS:hasPerformanceMetrics a owl:ObjectProperty ;
+    rdfs:domain AmazonNS:Seller ;
+    rdfs:range SellerNS:Performance_Metrics .
+
+SellerNS:hasContact a owl:ObjectProperty ;
+    rdfs:domain AmazonNS:Seller ; 
+    rdfs:range SellerNS:Contact_Info .
+
+
+CustomerNS:hasProduct a owl:ObjectProperty ;
+    rdfs:domain CustomerNS:Wishlist ;
+    rdfs:range AmazonNS:Product .
+
+################### Now lets define attributes
+
+## Product
+ProductNS:id a owl:DatatypeProperty ;
+    rdfs:domain AmazonNS:Product ;
+    rdfs:range xsd:string .
+
+ProductNS:description a owl:DatatypeProperty ;
+    rdfs:domain AmazonNS:Product ;
+    rdfs:range xsd:string .
+
+ProductNS:product_name a owl:DatatypeProperty ;
+    rdfs:domain AmazonNS:Product ;
+    rdfs:range xsd:string .
+
+ProductNS:model_number a owl:DatatypeProperty ;
+    rdfs:domain AmazonNS:Product ;
+    rdfs:range xsd:string .
+
+ProductNS:color a owl:DatatypeProperty ;
+    rdfs:domain AmazonNS:Product ;
+    rdfs:range xsd:string .
+
+ProductNS:features a owl:DatatypeProperty ;
+    rdfs:domain AmazonNS:Product ;
+    rdfs:range xsd:string .
+
+ProductNS:images a owl:DatatypeProperty ;
+    rdfs:domain AmazonNS:Product ;
+    rdfs:range xsd:anyURI .
+
+ProductNS:brand_name a owl:DatatypeProperty ;
+    rdfs:domain ProductNS:Brand ;
+    rdfs:range xsd:string .
+
+ProductNS:sub_category_name a owl:DatatypeProperty ;
+    rdfs:domain ProductNS:Sub-Category ;
+    rdfs:range xsd:string .
+
+ProductNS:category_name a owl:DatatypeProperty ;
+    rdfs:domain ProductNS:Category ;
+    rdfs:range xsd:string .
+
+ProductNS:price_amount a owl:DatatypeProperty ;
+    rdfs:domain ProductNS:Price ;
+    rdfs:range xsd:decimal .
+
+ProductNS:price_currency a owl:DatatypeProperty ;
+    rdfs:domain ProductNS:Price ;
+    rdfs:range xsd:string .
+
+ProductNS:availability_stock a owl:DatatypeProperty ;
+    rdfs:domain ProductNS:Availability ;
+    rdfs:range xsd:integer .
+
+ProductNS:availability_status a owl:DatatypeProperty ;
+    rdfs:domain ProductNS:Availability ;
+    rdfs:range xsd:string .
+
+ProductNS:availability_restock_date a owl:DatatypeProperty ;
+    rdfs:domain ProductNS:Availability ;
+    rdfs:range xsd:date .
+
+ProductNS:rating_average a owl:DatatypeProperty ;
+    rdfs:domain ProductNS:Rating ;
+    rdfs:range xsd:decimal .
+
+ProductNS:rating_number_of_reviews a owl:DatatypeProperty ;
+    rdfs:domain ProductNS:Rating ;
+    rdfs:range xsd:integer .
+
+ProductNS:dimensions_height_cm a owl:DatatypeProperty ;
+    rdfs:domain ProductNS:Dimensions ;
+    rdfs:range xsd:decimal .
+
+ProductNS:dimensions_depth_cm a owl:DatatypeProperty ;
+    rdfs:domain ProductNS:Dimensions ;
+    rdfs:range xsd:decimal .
+
+ProductNS:dimensions_width_cm a owl:DatatypeProperty ;
+    rdfs:domain ProductNS:Dimensions ;
+    rdfs:range xsd:decimal .
+
+
+ProductNS:dimensions_weight_cm a owl:DatatypeProperty ;
+    rdfs:domain ProductNS:Dimensions ;
+    rdfs:range xsd:decimal .
+
+
+ProductNS:return_policy_return_period_days a owl:DatatypeProperty ;
+    rdfs:domain ProductNS:Return_Policy ;
+    rdfs:range xsd:integer .
+
+ProductNS:return_policy_conditions a owl:DatatypeProperty ;
+    rdfs:domain ProductNS:Return_Policy ;
+    rdfs:range xsd:string .
+
+ProductNS:return_policy_is_return_eligible a owl:DatatypeProperty ;
+    rdfs:domain ProductNS:Return_Policy ;
+    rdfs:range xsd:boolean .
+
+ProductNS:return_fee_price a owl:DatatypeProperty ;
+    rdfs:domain ProductNS:Return_Fee ;
+    rdfs:range xsd:decimal .
+
+ProductNS:return_fee_currency a owl:DatatypeProperty ;
+    rdfs:domain ProductNS:Return_Fee ;
+    rdfs:range xsd:string .
+
+ProductNS:order_order_id a owl:DatatypeProperty ;
+    rdfs:domain ProductNS:Order ;
+    rdfs:range xsd:string .
+
+ProductNS:order_quantity_ordered a owl:DatatypeProperty ;
+    rdfs:domain ProductNS:Order ;
+    rdfs:range xsd:integer .
+
+OrderNS:shipping_info_shipping_status a owl:DatatypeProperty ;
+    rdfs:domain OrderNS:Shipping_Info ;
+    rdfs:range xsd:string .
+
+OrderNS:shipping_info_method a owl:DatatypeProperty ;
+    rdfs:domain OrderNS:Shipping_Info ;
+    rdfs:range xsd:string .
+
+OrderNS:shipping_info_price_cost a owl:DatatypeProperty ;
+    rdfs:domain OrderNS:Price ;
+    rdfs:range xsd:decimal .
+
+OrderNS:shipping_info_price_currency a owl:DatatypeProperty ;
+    rdfs:domain OrderNS:Price ;
+    rdfs:range xsd:string .
+
+OrderNS:shipping_info_estimated_delivery_time_deliver_time a owl:DatatypeProperty ;
+    rdfs:domain OrderNS:Estimated_Delivery_Time ;
+    rdfs:range xsd:integer .
+
+OrderNS:shipping_info_estimated_delivery_time_metric a owl:DatatypeProperty ;
+    rdfs:domain OrderNS:Estimated_Delivery_Time ;
+    rdfs:range xsd:string .
+
+OrderNS:shipping_info_address_type a owl:DatatypeProperty ;
+    rdfs:domain OrderNS:Address ;
+    rdfs:range xsd:string .
+
+OrderNS:shipping_info_address_string a owl:DatatypeProperty ;
+    rdfs:domain OrderNS:Address ;
+    rdfs:range xsd:string .
+
+OrderNS:shipping_info_address_city a owl:DatatypeProperty ;
+    rdfs:domain OrderNS:Address ;
+    rdfs:range xsd:string .
+
+OrderNS:shipping_info_address_state a owl:DatatypeProperty ;
+    rdfs:domain OrderNS:Address ;
+    rdfs:range xsd:string .
+
+OrderNS:shipping_info_address_postal_code a owl:DatatypeProperty ;
+    rdfs:domain OrderNS:Address ;
+    rdfs:range xsd:string .
+
+OrderNS:shipping_info_address_country a owl:DatatypeProperty ;
+    rdfs:domain OrderNS:Address ;
+    rdfs:range xsd:string .
+
+ProductNS:shipping_options_method a owl:DatatypeProperty ;
+    rdfs:domain ProductNS:Shipping_Options ;
+    rdfs:range xsd:string .
+
+ProductShippingOptionsNS:shipping_options_price_cost a owl:DatatypeProperty ;
+    rdfs:domain ProductShippingOptionsNS:Price ;
+    rdfs:range xsd:decimal .
+
+
+ProductShippingOptionsNS:shipping_options_price_currency a owl:DatatypeProperty ;
+    rdfs:domain ProductShippingOptionsNS:Price ;
+    rdfs:range xsd:string .
+
+ProductShippingOptionsNS:shipping_options_estimated_delivery_time_delivery_time a owl:DatatypeProperty ;
+    rdfs:domain ProductShippingOptionsNS:Estimated_Delivery_Time ;
+    rdfs:range xsd:integer .
+
+ProductShippingOptionsNS:shipping_options_estimated_delivery_time_metric a owl:DatatypeProperty ;
+    rdfs:domain ProductShippingOptionsNS:Estimated_Delivery_Time ;
+    rdfs:range xsd:string .
+
+SellerNS:seller_seller_id a owl:DatatypeProperty ;
+    rdfs:domain AmazonNS:Seller ;
+    rdfs:range xsd:string .
+
+SellerNS:seller_seller_name a owl:DatatypeProperty ;
+    rdfs:domain AmazonNS:Seller ;
+    rdfs:range xsd:string .
+
+SellerNS:seller_store_name a owl:DatatypeProperty ;
+    rdfs:domain AmazonNS:Seller ;
+    rdfs:range xsd:string .
+
+SellerNS:seller_contact_info_email a owl:DatatypeProperty ;
+    rdfs:domain SellerNS:Contact_Info ;
+    rdfs:range xsd:string .
+
+SellerNS:seller_contact_info_phone a owl:DatatypeProperty ;
+    rdfs:domain SellerNS:Contact_Info ;
+    rdfs:range xsd:string .
+
+SellerNS:seller_contact_info_address a owl:DatatypeProperty ;
+    rdfs:domain SellerNS:Contact_Info ;
+    rdfs:range xsd:string .
+
+SellerNS:seller_performance_metrics_average_rating a owl:DatatypeProperty ;
+    rdfs:domain SellerNS:Performance_Metrics ;
+    rdfs:range xsd:string .
+
+SellerNS:seller_performance_metrics_total_orders a owl:DatatypeProperty ;
+    rdfs:domain SellerNS:Performance_Metrics ;
+    rdfs:range xsd:integer .
+
+SellerNS:seller_performance_metrics_cancellation_rate a owl:DatatypeProperty ;
+    rdfs:domain SellerNS:Performance_Metrics ;
+    rdfs:range xsd:string .
+
+SellerNS:seller_performance_metrics_on_time_delivery_rate a owl:DatatypeProperty ;
+    rdfs:domain SellerNS:Performance_Metrics ;
+    rdfs:range xsd:string .
+
+CustomerNS:details_customer_name a owl:DatatypeProperty ;
+    rdfs:domain CustomerNS:Details ;
+    rdfs:range xsd:string .
+
+CustomerNS:details_customer_id a owl:DatatypeProperty ;
+    rdfs:domain CustomerNS:Details ;
+    rdfs:range xsd:string .
+
+CustomerNS:details_customer_email a owl:DatatypeProperty ;
+    rdfs:domain CustomerNS:Details ;
+    rdfs:range xsd:string .
+
+CustomerNS:details_customer_phone a owl:DatatypeProperty ;
+    rdfs:domain CustomerNS:Details ;
+    rdfs:range xsd:string .
+
+CustomerNS:details_address_options_type a owl:DatatypeProperty ;
+    rdfs:domain CustomerNS:Address_Options ;
+    rdfs:range xsd:string .
+
+CustomerNS:details_address_options_address a owl:DatatypeProperty ;
+    rdfs:domain CustomerNS:Address_Options ;
+    rdfs:range xsd:string .
+
+CustomerNS:details_address_options_city a owl:DatatypeProperty ;
+    rdfs:domain CustomerNS:Address_Options ;
+    rdfs:range xsd:string .
+
+CustomerNS:details_address_options_state a owl:DatatypeProperty ;
+    rdfs:domain CustomerNS:Address_Options ;
+    rdfs:range xsd:string .
+
+CustomerNS:details_address_options_postal_code a owl:DatatypeProperty ;
+    rdfs:domain CustomerNS:Address_Options ;
+    rdfs:range xsd:string .
+
+CustomerNS:details_address_options_country a owl:DatatypeProperty ;
+    rdfs:domain CustomerNS:Address_Options ;
+    rdfs:range xsd:string .

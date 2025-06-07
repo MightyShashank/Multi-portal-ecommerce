@@ -1,0 +1,1422 @@
+{
+    "mens-clothing": [
+        {
+            "seller_id": "amazon_seller_mens_clothing_1",
+            "seller_name": "Shoppers Stop",
+            "store_name": "Foster and Sons",
+            "contact_info": {
+                "email": "lisarobinson@example.org",
+                "phone": "(657)524-8017x442",
+                "address": "USNS Ho\nFPO AE 46501"
+            },
+            "performance_metrics": {
+                "average_rating": "4.1",
+                "total_orders": 1591,
+                "cancellation_rate": "3.5%",
+                "on_time_delivery_rate": "96.5%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_mens-clothing_1",
+                "amazon_fashion_mens-clothing_2",
+                "amazon_fashion_mens-clothing_3",
+                "amazon_fashion_mens-clothing_4",
+                "amazon_fashion_mens-clothing_5",
+                "amazon_fashion_mens-clothing_6",
+                "amazon_fashion_mens-clothing_7",
+                "amazon_fashion_mens-clothing_8",
+                "amazon_fashion_mens-clothing_9",
+                "amazon_fashion_mens-clothing_10"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_mens_clothing_2",
+            "seller_name": "Pantaloons",
+            "store_name": "Spence-Barrera",
+            "contact_info": {
+                "email": "jared55@example.net",
+                "phone": "(689)823-2868x04674",
+                "address": "USCGC Dougherty\nFPO AE 74041"
+            },
+            "performance_metrics": {
+                "average_rating": "4.2",
+                "total_orders": 1203,
+                "cancellation_rate": "3.9%",
+                "on_time_delivery_rate": "99.2%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_mens-clothing_11",
+                "amazon_fashion_mens-clothing_12",
+                "amazon_fashion_mens-clothing_13",
+                "amazon_fashion_mens-clothing_14",
+                "amazon_fashion_mens-clothing_15",
+                "amazon_fashion_mens-clothing_16",
+                "amazon_fashion_mens-clothing_17",
+                "amazon_fashion_mens-clothing_18",
+                "amazon_fashion_mens-clothing_19",
+                "amazon_fashion_mens-clothing_20"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_mens_clothing_3",
+            "seller_name": "Myntra",
+            "store_name": "Mcdonald, Edwards and Jones",
+            "contact_info": {
+                "email": "melissa15@example.net",
+                "phone": "5737893939",
+                "address": "785 Reynolds Parks Suite 825\nChristinahaven, NV 00526"
+            },
+            "performance_metrics": {
+                "average_rating": "4.1",
+                "total_orders": 4363,
+                "cancellation_rate": "2.6%",
+                "on_time_delivery_rate": "99.0%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_mens-clothing_21",
+                "amazon_fashion_mens-clothing_22",
+                "amazon_fashion_mens-clothing_23",
+                "amazon_fashion_mens-clothing_24",
+                "amazon_fashion_mens-clothing_25",
+                "amazon_fashion_mens-clothing_26",
+                "amazon_fashion_mens-clothing_27",
+                "amazon_fashion_mens-clothing_28",
+                "amazon_fashion_mens-clothing_29",
+                "amazon_fashion_mens-clothing_30"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_mens_clothing_4",
+            "seller_name": "Ajio",
+            "store_name": "Graham-Arnold",
+            "contact_info": {
+                "email": "kevinmartin@example.com",
+                "phone": "997-242-4180x1587",
+                "address": "7712 Baker Inlet Apt. 887\nSouth Juliashire, MH 50848"
+            },
+            "performance_metrics": {
+                "average_rating": "4.5",
+                "total_orders": 2159,
+                "cancellation_rate": "3.8%",
+                "on_time_delivery_rate": "97.7%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_mens-clothing_31",
+                "amazon_fashion_mens-clothing_32",
+                "amazon_fashion_mens-clothing_33",
+                "amazon_fashion_mens-clothing_34",
+                "amazon_fashion_mens-clothing_35",
+                "amazon_fashion_mens-clothing_36",
+                "amazon_fashion_mens-clothing_37",
+                "amazon_fashion_mens-clothing_38",
+                "amazon_fashion_mens-clothing_39",
+                "amazon_fashion_mens-clothing_40"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_mens_clothing_5",
+            "seller_name": "Bata India",
+            "store_name": "Johnson and Sons",
+            "contact_info": {
+                "email": "leonardelizabeth@example.net",
+                "phone": "(967)742-3460x50494",
+                "address": "0246 Kathleen Mountains\nValeriemouth, MO 39039"
+            },
+            "performance_metrics": {
+                "average_rating": "4.7",
+                "total_orders": 4997,
+                "cancellation_rate": "1.7%",
+                "on_time_delivery_rate": "95.4%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_mens-clothing_41",
+                "amazon_fashion_mens-clothing_42",
+                "amazon_fashion_mens-clothing_43",
+                "amazon_fashion_mens-clothing_44",
+                "amazon_fashion_mens-clothing_45",
+                "amazon_fashion_mens-clothing_46",
+                "amazon_fashion_mens-clothing_47",
+                "amazon_fashion_mens-clothing_48",
+                "amazon_fashion_mens-clothing_49",
+                "amazon_fashion_mens-clothing_50"
+            ]
+        }
+    ],
+    "womens-clothing": [
+        {
+            "seller_id": "amazon_seller_womens_clothing_1",
+            "seller_name": "Fabindia",
+            "store_name": "Kennedy Inc",
+            "contact_info": {
+                "email": "robertsonstephanie@example.org",
+                "phone": "601-496-3469",
+                "address": "0268 Clarke Overpass\nNew Joseph, SC 84055"
+            },
+            "performance_metrics": {
+                "average_rating": "4.7",
+                "total_orders": 3146,
+                "cancellation_rate": "3.9%",
+                "on_time_delivery_rate": "95.9%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_womens-clothing_1",
+                "amazon_fashion_womens-clothing_2",
+                "amazon_fashion_womens-clothing_3",
+                "amazon_fashion_womens-clothing_4",
+                "amazon_fashion_womens-clothing_5",
+                "amazon_fashion_womens-clothing_6",
+                "amazon_fashion_womens-clothing_7",
+                "amazon_fashion_womens-clothing_8",
+                "amazon_fashion_womens-clothing_9",
+                "amazon_fashion_womens-clothing_10"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_womens_clothing_2",
+            "seller_name": "Vero Moda",
+            "store_name": "Martin, Simmons and Wagner",
+            "contact_info": {
+                "email": "richardwilkinson@example.org",
+                "phone": "(892)961-8133x74050",
+                "address": "5969 Marshall Forks\nJoshualand, TN 98128"
+            },
+            "performance_metrics": {
+                "average_rating": "4.6",
+                "total_orders": 2516,
+                "cancellation_rate": "4.2%",
+                "on_time_delivery_rate": "98.7%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_womens-clothing_11",
+                "amazon_fashion_womens-clothing_12",
+                "amazon_fashion_womens-clothing_13",
+                "amazon_fashion_womens-clothing_14",
+                "amazon_fashion_womens-clothing_15",
+                "amazon_fashion_womens-clothing_16",
+                "amazon_fashion_womens-clothing_17",
+                "amazon_fashion_womens-clothing_18",
+                "amazon_fashion_womens-clothing_19",
+                "amazon_fashion_womens-clothing_20"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_womens_clothing_3",
+            "seller_name": "Zara",
+            "store_name": "Baker-Daniel",
+            "contact_info": {
+                "email": "sarahmiller@example.net",
+                "phone": "+1-556-857-4341x17917",
+                "address": "77052 Rice Dam Apt. 353\nNorth Angelaview, CT 95507"
+            },
+            "performance_metrics": {
+                "average_rating": "4.2",
+                "total_orders": 2840,
+                "cancellation_rate": "3.2%",
+                "on_time_delivery_rate": "97.5%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_womens-clothing_21",
+                "amazon_fashion_womens-clothing_22",
+                "amazon_fashion_womens-clothing_23",
+                "amazon_fashion_womens-clothing_24",
+                "amazon_fashion_womens-clothing_25",
+                "amazon_fashion_womens-clothing_26",
+                "amazon_fashion_womens-clothing_27",
+                "amazon_fashion_womens-clothing_28",
+                "amazon_fashion_womens-clothing_29",
+                "amazon_fashion_womens-clothing_30"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_womens_clothing_4",
+            "seller_name": "H&M",
+            "store_name": "Patterson-Howard",
+            "contact_info": {
+                "email": "colleenmitchell@example.net",
+                "phone": "272.790.4758x49227",
+                "address": "83197 Bell Lodge\nNorth Jacob, WY 88880"
+            },
+            "performance_metrics": {
+                "average_rating": "4.5",
+                "total_orders": 3059,
+                "cancellation_rate": "4.6%",
+                "on_time_delivery_rate": "98.0%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_womens-clothing_31",
+                "amazon_fashion_womens-clothing_32",
+                "amazon_fashion_womens-clothing_33",
+                "amazon_fashion_womens-clothing_34",
+                "amazon_fashion_womens-clothing_35",
+                "amazon_fashion_womens-clothing_36",
+                "amazon_fashion_womens-clothing_37",
+                "amazon_fashion_womens-clothing_38",
+                "amazon_fashion_womens-clothing_39",
+                "amazon_fashion_womens-clothing_40"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_womens_clothing_5",
+            "seller_name": "Van Heusen",
+            "store_name": "Powell-Gates",
+            "contact_info": {
+                "email": "veronicasmith@example.net",
+                "phone": "371.687.7473",
+                "address": "9947 Anna Mountain\nPort Jeffrey, GU 11498"
+            },
+            "performance_metrics": {
+                "average_rating": "4.9",
+                "total_orders": 1886,
+                "cancellation_rate": "1.5%",
+                "on_time_delivery_rate": "98.4%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_womens-clothing_41",
+                "amazon_fashion_womens-clothing_42",
+                "amazon_fashion_womens-clothing_43",
+                "amazon_fashion_womens-clothing_44",
+                "amazon_fashion_womens-clothing_45",
+                "amazon_fashion_womens-clothing_46",
+                "amazon_fashion_womens-clothing_47",
+                "amazon_fashion_womens-clothing_48",
+                "amazon_fashion_womens-clothing_49",
+                "amazon_fashion_womens-clothing_50"
+            ]
+        }
+    ],
+    "kids-clothing": [
+        {
+            "seller_id": "amazon_seller_kids_clothing_1",
+            "seller_name": "FirstCry",
+            "store_name": "Larson, Baker and Collins",
+            "contact_info": {
+                "email": "astephens@example.org",
+                "phone": "202-210-5847",
+                "address": "65024 Dennis Villages\nAlyssastad, MP 12945"
+            },
+            "performance_metrics": {
+                "average_rating": "4.5",
+                "total_orders": 4939,
+                "cancellation_rate": "3.7%",
+                "on_time_delivery_rate": "99.0%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_kids-clothing_1",
+                "amazon_fashion_kids-clothing_2",
+                "amazon_fashion_kids-clothing_3",
+                "amazon_fashion_kids-clothing_4",
+                "amazon_fashion_kids-clothing_5",
+                "amazon_fashion_kids-clothing_6",
+                "amazon_fashion_kids-clothing_7",
+                "amazon_fashion_kids-clothing_8",
+                "amazon_fashion_kids-clothing_9",
+                "amazon_fashion_kids-clothing_10"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_kids_clothing_2",
+            "seller_name": "Babyoye",
+            "store_name": "Johnson Inc",
+            "contact_info": {
+                "email": "miguelharris@example.net",
+                "phone": "001-605-962-7452x891",
+                "address": "0909 Jackson Drives\nNew Kevin, CA 44508"
+            },
+            "performance_metrics": {
+                "average_rating": "5.0",
+                "total_orders": 4310,
+                "cancellation_rate": "2.9%",
+                "on_time_delivery_rate": "95.6%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_kids-clothing_11",
+                "amazon_fashion_kids-clothing_12",
+                "amazon_fashion_kids-clothing_13",
+                "amazon_fashion_kids-clothing_14",
+                "amazon_fashion_kids-clothing_15",
+                "amazon_fashion_kids-clothing_16",
+                "amazon_fashion_kids-clothing_17",
+                "amazon_fashion_kids-clothing_18",
+                "amazon_fashion_kids-clothing_19",
+                "amazon_fashion_kids-clothing_20"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_kids_clothing_3",
+            "seller_name": "Hopscotch",
+            "store_name": "Johnson LLC",
+            "contact_info": {
+                "email": "pricetimothy@example.com",
+                "phone": "812.312.4920x0844",
+                "address": "041 Clayton Springs Suite 786\nSilvashire, PA 78285"
+            },
+            "performance_metrics": {
+                "average_rating": "4.8",
+                "total_orders": 1739,
+                "cancellation_rate": "3.6%",
+                "on_time_delivery_rate": "96.2%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_kids-clothing_21",
+                "amazon_fashion_kids-clothing_22",
+                "amazon_fashion_kids-clothing_23",
+                "amazon_fashion_kids-clothing_24",
+                "amazon_fashion_kids-clothing_25",
+                "amazon_fashion_kids-clothing_26",
+                "amazon_fashion_kids-clothing_27",
+                "amazon_fashion_kids-clothing_28",
+                "amazon_fashion_kids-clothing_29",
+                "amazon_fashion_kids-clothing_30"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_kids_clothing_4",
+            "seller_name": "Mothercare",
+            "store_name": "Whitaker PLC",
+            "contact_info": {
+                "email": "carlatrujillo@example.net",
+                "phone": "001-488-935-8191x80882",
+                "address": "099 Mitchell Forge Apt. 706\nSouth Christopherstad, MN 46989"
+            },
+            "performance_metrics": {
+                "average_rating": "4.1",
+                "total_orders": 3982,
+                "cancellation_rate": "4.1%",
+                "on_time_delivery_rate": "98.2%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_kids-clothing_31",
+                "amazon_fashion_kids-clothing_32",
+                "amazon_fashion_kids-clothing_33",
+                "amazon_fashion_kids-clothing_34",
+                "amazon_fashion_kids-clothing_35",
+                "amazon_fashion_kids-clothing_36",
+                "amazon_fashion_kids-clothing_37",
+                "amazon_fashion_kids-clothing_38",
+                "amazon_fashion_kids-clothing_39",
+                "amazon_fashion_kids-clothing_40"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_kids_clothing_5",
+            "seller_name": "Limeroad",
+            "store_name": "Todd Ltd",
+            "contact_info": {
+                "email": "spham@example.org",
+                "phone": "802.715.5675x2868",
+                "address": "46992 Cole Trail\nMadisonmouth, IL 25589"
+            },
+            "performance_metrics": {
+                "average_rating": "4.5",
+                "total_orders": 1551,
+                "cancellation_rate": "2.5%",
+                "on_time_delivery_rate": "96.0%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_kids-clothing_41",
+                "amazon_fashion_kids-clothing_42",
+                "amazon_fashion_kids-clothing_43",
+                "amazon_fashion_kids-clothing_44",
+                "amazon_fashion_kids-clothing_45",
+                "amazon_fashion_kids-clothing_46",
+                "amazon_fashion_kids-clothing_47",
+                "amazon_fashion_kids-clothing_48",
+                "amazon_fashion_kids-clothing_49",
+                "amazon_fashion_kids-clothing_50"
+            ]
+        }
+    ],
+    "footwear": [
+        {
+            "seller_id": "amazon_seller_footwear_1",
+            "seller_name": "Red Tape",
+            "store_name": "Guerrero, Blair and Hart",
+            "contact_info": {
+                "email": "storres@example.org",
+                "phone": "798.469.2461x401",
+                "address": "53338 Jessica Cove\nNew Sherry, MH 05268"
+            },
+            "performance_metrics": {
+                "average_rating": "4.3",
+                "total_orders": 1833,
+                "cancellation_rate": "2.7%",
+                "on_time_delivery_rate": "96.8%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_footwear_1",
+                "amazon_fashion_footwear_2",
+                "amazon_fashion_footwear_3",
+                "amazon_fashion_footwear_4",
+                "amazon_fashion_footwear_5",
+                "amazon_fashion_footwear_6",
+                "amazon_fashion_footwear_7",
+                "amazon_fashion_footwear_8",
+                "amazon_fashion_footwear_9",
+                "amazon_fashion_footwear_10"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_footwear_2",
+            "seller_name": "Metro Shoes",
+            "store_name": "Lee, Allen and Huff",
+            "contact_info": {
+                "email": "jessica83@example.com",
+                "phone": "(331)769-0766",
+                "address": "2808 Douglas Plains\nPort Kristinaside, PA 43734"
+            },
+            "performance_metrics": {
+                "average_rating": "4.6",
+                "total_orders": 2905,
+                "cancellation_rate": "1.3%",
+                "on_time_delivery_rate": "96.2%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_footwear_11",
+                "amazon_fashion_footwear_12",
+                "amazon_fashion_footwear_13",
+                "amazon_fashion_footwear_14",
+                "amazon_fashion_footwear_15",
+                "amazon_fashion_footwear_16",
+                "amazon_fashion_footwear_17",
+                "amazon_fashion_footwear_18",
+                "amazon_fashion_footwear_19",
+                "amazon_fashion_footwear_20"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_footwear_3",
+            "seller_name": "Woodland",
+            "store_name": "Lawrence Ltd",
+            "contact_info": {
+                "email": "otrujillo@example.org",
+                "phone": "+1-592-617-5170x3004",
+                "address": "56017 Ashlee Brooks Apt. 263\nEast Karenfurt, IA 25518"
+            },
+            "performance_metrics": {
+                "average_rating": "4.1",
+                "total_orders": 1184,
+                "cancellation_rate": "2.5%",
+                "on_time_delivery_rate": "95.9%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_footwear_21",
+                "amazon_fashion_footwear_22",
+                "amazon_fashion_footwear_23",
+                "amazon_fashion_footwear_24",
+                "amazon_fashion_footwear_25",
+                "amazon_fashion_footwear_26",
+                "amazon_fashion_footwear_27",
+                "amazon_fashion_footwear_28",
+                "amazon_fashion_footwear_29",
+                "amazon_fashion_footwear_30"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_footwear_4",
+            "seller_name": "Crocs",
+            "store_name": "Thompson PLC",
+            "contact_info": {
+                "email": "stevenharvey@example.net",
+                "phone": "9046508997",
+                "address": "51642 Smith Trace Apt. 147\nBeckertown, NE 64988"
+            },
+            "performance_metrics": {
+                "average_rating": "4.8",
+                "total_orders": 2197,
+                "cancellation_rate": "3.4%",
+                "on_time_delivery_rate": "98.5%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_footwear_31",
+                "amazon_fashion_footwear_32",
+                "amazon_fashion_footwear_33",
+                "amazon_fashion_footwear_34",
+                "amazon_fashion_footwear_35",
+                "amazon_fashion_footwear_36",
+                "amazon_fashion_footwear_37",
+                "amazon_fashion_footwear_38",
+                "amazon_fashion_footwear_39",
+                "amazon_fashion_footwear_40"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_footwear_5",
+            "seller_name": "Puma",
+            "store_name": "Coleman and Sons",
+            "contact_info": {
+                "email": "marcuscardenas@example.com",
+                "phone": "(505)522-1232x528",
+                "address": "2541 Fields Squares Suite 076\nPort Steveville, AS 61260"
+            },
+            "performance_metrics": {
+                "average_rating": "4.3",
+                "total_orders": 1993,
+                "cancellation_rate": "4.6%",
+                "on_time_delivery_rate": "97.8%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_footwear_41",
+                "amazon_fashion_footwear_42",
+                "amazon_fashion_footwear_43",
+                "amazon_fashion_footwear_44",
+                "amazon_fashion_footwear_45",
+                "amazon_fashion_footwear_46",
+                "amazon_fashion_footwear_47",
+                "amazon_fashion_footwear_48",
+                "amazon_fashion_footwear_49",
+                "amazon_fashion_footwear_50"
+            ]
+        }
+    ],
+    "bags-backpacks": [
+        {
+            "seller_id": "amazon_seller_bags_backpacks_1",
+            "seller_name": "Wildcraft",
+            "store_name": "Davis and Sons",
+            "contact_info": {
+                "email": "joshuaayala@example.com",
+                "phone": "631.913.1068",
+                "address": "1916 Fox Port\nJacquelineton, MS 11433"
+            },
+            "performance_metrics": {
+                "average_rating": "4.4",
+                "total_orders": 3789,
+                "cancellation_rate": "4.9%",
+                "on_time_delivery_rate": "98.0%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_bags-backpacks_1",
+                "amazon_fashion_bags-backpacks_2",
+                "amazon_fashion_bags-backpacks_3",
+                "amazon_fashion_bags-backpacks_4",
+                "amazon_fashion_bags-backpacks_5",
+                "amazon_fashion_bags-backpacks_6",
+                "amazon_fashion_bags-backpacks_7",
+                "amazon_fashion_bags-backpacks_8",
+                "amazon_fashion_bags-backpacks_9",
+                "amazon_fashion_bags-backpacks_10"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_bags_backpacks_2",
+            "seller_name": "American Tourister",
+            "store_name": "Reed, Olson and Steele",
+            "contact_info": {
+                "email": "justin78@example.com",
+                "phone": "9602596650",
+                "address": "3859 Webb Road\nWest Patrick, GU 73925"
+            },
+            "performance_metrics": {
+                "average_rating": "4.7",
+                "total_orders": 3259,
+                "cancellation_rate": "4.4%",
+                "on_time_delivery_rate": "95.8%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_bags-backpacks_11",
+                "amazon_fashion_bags-backpacks_12",
+                "amazon_fashion_bags-backpacks_13",
+                "amazon_fashion_bags-backpacks_14",
+                "amazon_fashion_bags-backpacks_15",
+                "amazon_fashion_bags-backpacks_16",
+                "amazon_fashion_bags-backpacks_17",
+                "amazon_fashion_bags-backpacks_18",
+                "amazon_fashion_bags-backpacks_19",
+                "amazon_fashion_bags-backpacks_20"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_bags_backpacks_3",
+            "seller_name": "Samsonite",
+            "store_name": "Fischer Ltd",
+            "contact_info": {
+                "email": "tyler33@example.net",
+                "phone": "787-942-1090",
+                "address": "USNV Jones\nFPO AE 44615"
+            },
+            "performance_metrics": {
+                "average_rating": "4.4",
+                "total_orders": 2602,
+                "cancellation_rate": "2.5%",
+                "on_time_delivery_rate": "95.5%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_bags-backpacks_21",
+                "amazon_fashion_bags-backpacks_22",
+                "amazon_fashion_bags-backpacks_23",
+                "amazon_fashion_bags-backpacks_24",
+                "amazon_fashion_bags-backpacks_25",
+                "amazon_fashion_bags-backpacks_26",
+                "amazon_fashion_bags-backpacks_27",
+                "amazon_fashion_bags-backpacks_28",
+                "amazon_fashion_bags-backpacks_29",
+                "amazon_fashion_bags-backpacks_30"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_bags_backpacks_4",
+            "seller_name": "Lavie",
+            "store_name": "Wright-Christian",
+            "contact_info": {
+                "email": "dorothy92@example.org",
+                "phone": "253-621-8789x12504",
+                "address": "7480 Marc Pass Suite 804\nChristianstad, MI 81729"
+            },
+            "performance_metrics": {
+                "average_rating": "4.9",
+                "total_orders": 4590,
+                "cancellation_rate": "1.4%",
+                "on_time_delivery_rate": "99.7%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_bags-backpacks_31",
+                "amazon_fashion_bags-backpacks_32",
+                "amazon_fashion_bags-backpacks_33",
+                "amazon_fashion_bags-backpacks_34",
+                "amazon_fashion_bags-backpacks_35",
+                "amazon_fashion_bags-backpacks_36",
+                "amazon_fashion_bags-backpacks_37",
+                "amazon_fashion_bags-backpacks_38",
+                "amazon_fashion_bags-backpacks_39",
+                "amazon_fashion_bags-backpacks_40"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_bags_backpacks_5",
+            "seller_name": "Baggit",
+            "store_name": "White-Howell",
+            "contact_info": {
+                "email": "jamesjackson@example.org",
+                "phone": "651.671.0028x856",
+                "address": "1983 Hendrix Fields\nWest Benjaminstad, NM 42541"
+            },
+            "performance_metrics": {
+                "average_rating": "4.1",
+                "total_orders": 3845,
+                "cancellation_rate": "2.2%",
+                "on_time_delivery_rate": "99.6%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_bags-backpacks_41",
+                "amazon_fashion_bags-backpacks_42",
+                "amazon_fashion_bags-backpacks_43",
+                "amazon_fashion_bags-backpacks_44",
+                "amazon_fashion_bags-backpacks_45",
+                "amazon_fashion_bags-backpacks_46",
+                "amazon_fashion_bags-backpacks_47",
+                "amazon_fashion_bags-backpacks_48",
+                "amazon_fashion_bags-backpacks_49",
+                "amazon_fashion_bags-backpacks_50"
+            ]
+        }
+    ],
+    "watches": [
+        {
+            "seller_id": "amazon_seller_watches_1",
+            "seller_name": "Titan",
+            "store_name": "Wilkins Ltd",
+            "contact_info": {
+                "email": "waltercindy@example.org",
+                "phone": "+1-982-370-3460x46371",
+                "address": "458 Courtney Gateway Apt. 387\nEast Lindaburgh, ME 42245"
+            },
+            "performance_metrics": {
+                "average_rating": "4.8",
+                "total_orders": 4238,
+                "cancellation_rate": "3.2%",
+                "on_time_delivery_rate": "96.9%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_watches_1",
+                "amazon_fashion_watches_2",
+                "amazon_fashion_watches_3",
+                "amazon_fashion_watches_4",
+                "amazon_fashion_watches_5",
+                "amazon_fashion_watches_6",
+                "amazon_fashion_watches_7",
+                "amazon_fashion_watches_8",
+                "amazon_fashion_watches_9",
+                "amazon_fashion_watches_10"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_watches_2",
+            "seller_name": "Fossil",
+            "store_name": "Lee LLC",
+            "contact_info": {
+                "email": "rjackson@example.com",
+                "phone": "001-914-424-9177x36807",
+                "address": "8819 Brown Viaduct Apt. 263\nNew Patriciamouth, NC 28586"
+            },
+            "performance_metrics": {
+                "average_rating": "4.1",
+                "total_orders": 3693,
+                "cancellation_rate": "2.3%",
+                "on_time_delivery_rate": "99.1%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_watches_11",
+                "amazon_fashion_watches_12",
+                "amazon_fashion_watches_13",
+                "amazon_fashion_watches_14",
+                "amazon_fashion_watches_15",
+                "amazon_fashion_watches_16",
+                "amazon_fashion_watches_17",
+                "amazon_fashion_watches_18",
+                "amazon_fashion_watches_19",
+                "amazon_fashion_watches_20"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_watches_3",
+            "seller_name": "Casio",
+            "store_name": "Bennett-Alvarez",
+            "contact_info": {
+                "email": "thomas19@example.net",
+                "phone": "2294563404",
+                "address": "2107 Poole Circle Suite 361\nEast Vincentborough, WI 16020"
+            },
+            "performance_metrics": {
+                "average_rating": "4.1",
+                "total_orders": 2499,
+                "cancellation_rate": "4.9%",
+                "on_time_delivery_rate": "99.9%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_watches_21",
+                "amazon_fashion_watches_22",
+                "amazon_fashion_watches_23",
+                "amazon_fashion_watches_24",
+                "amazon_fashion_watches_25",
+                "amazon_fashion_watches_26",
+                "amazon_fashion_watches_27",
+                "amazon_fashion_watches_28",
+                "amazon_fashion_watches_29",
+                "amazon_fashion_watches_30"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_watches_4",
+            "seller_name": "Seiko",
+            "store_name": "Oneill PLC",
+            "contact_info": {
+                "email": "nscott@example.com",
+                "phone": "+1-629-287-5422x81007",
+                "address": "7801 Marcia Green\nMedinatown, LA 17188"
+            },
+            "performance_metrics": {
+                "average_rating": "4.5",
+                "total_orders": 1068,
+                "cancellation_rate": "1.5%",
+                "on_time_delivery_rate": "95.7%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_watches_31",
+                "amazon_fashion_watches_32",
+                "amazon_fashion_watches_33",
+                "amazon_fashion_watches_34",
+                "amazon_fashion_watches_35",
+                "amazon_fashion_watches_36",
+                "amazon_fashion_watches_37",
+                "amazon_fashion_watches_38",
+                "amazon_fashion_watches_39",
+                "amazon_fashion_watches_40"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_watches_5",
+            "seller_name": "Rolex",
+            "store_name": "Romero PLC",
+            "contact_info": {
+                "email": "jerrycruz@example.org",
+                "phone": "532-486-4495",
+                "address": "90352 Kenneth Isle Apt. 307\nWest John, MD 90852"
+            },
+            "performance_metrics": {
+                "average_rating": "4.5",
+                "total_orders": 4905,
+                "cancellation_rate": "2.9%",
+                "on_time_delivery_rate": "98.9%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_watches_41",
+                "amazon_fashion_watches_42",
+                "amazon_fashion_watches_43",
+                "amazon_fashion_watches_44",
+                "amazon_fashion_watches_45",
+                "amazon_fashion_watches_46",
+                "amazon_fashion_watches_47",
+                "amazon_fashion_watches_48",
+                "amazon_fashion_watches_49",
+                "amazon_fashion_watches_50"
+            ]
+        }
+    ],
+    "sunglasses": [
+        {
+            "seller_id": "amazon_seller_sunglasses_1",
+            "seller_name": "Ray-Ban",
+            "store_name": "King, Cox and Smith",
+            "contact_info": {
+                "email": "alecperry@example.org",
+                "phone": "(450)729-6038x97419",
+                "address": "3568 Hoffman Square\nWest Emilyview, WA 78577"
+            },
+            "performance_metrics": {
+                "average_rating": "5.0",
+                "total_orders": 4627,
+                "cancellation_rate": "4.1%",
+                "on_time_delivery_rate": "95.8%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_sunglasses_1",
+                "amazon_fashion_sunglasses_2",
+                "amazon_fashion_sunglasses_3",
+                "amazon_fashion_sunglasses_4",
+                "amazon_fashion_sunglasses_5",
+                "amazon_fashion_sunglasses_6",
+                "amazon_fashion_sunglasses_7",
+                "amazon_fashion_sunglasses_8",
+                "amazon_fashion_sunglasses_9",
+                "amazon_fashion_sunglasses_10"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_sunglasses_2",
+            "seller_name": "Oakley",
+            "store_name": "Berg-Simpson",
+            "contact_info": {
+                "email": "petergraham@example.net",
+                "phone": "+1-722-497-1560x74341",
+                "address": "4933 Golden Springs Suite 646\nAlyssaland, NY 81006"
+            },
+            "performance_metrics": {
+                "average_rating": "4.7",
+                "total_orders": 1343,
+                "cancellation_rate": "3.3%",
+                "on_time_delivery_rate": "96.4%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_sunglasses_11",
+                "amazon_fashion_sunglasses_12",
+                "amazon_fashion_sunglasses_13",
+                "amazon_fashion_sunglasses_14",
+                "amazon_fashion_sunglasses_15",
+                "amazon_fashion_sunglasses_16",
+                "amazon_fashion_sunglasses_17",
+                "amazon_fashion_sunglasses_18",
+                "amazon_fashion_sunglasses_19",
+                "amazon_fashion_sunglasses_20"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_sunglasses_3",
+            "seller_name": "Maui Jim",
+            "store_name": "Jones LLC",
+            "contact_info": {
+                "email": "harrisamber@example.net",
+                "phone": "9275121764",
+                "address": "USNS Davis\nFPO AE 16780"
+            },
+            "performance_metrics": {
+                "average_rating": "4.3",
+                "total_orders": 3871,
+                "cancellation_rate": "2.2%",
+                "on_time_delivery_rate": "97.4%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_sunglasses_21",
+                "amazon_fashion_sunglasses_22",
+                "amazon_fashion_sunglasses_23",
+                "amazon_fashion_sunglasses_24",
+                "amazon_fashion_sunglasses_25",
+                "amazon_fashion_sunglasses_26",
+                "amazon_fashion_sunglasses_27",
+                "amazon_fashion_sunglasses_28",
+                "amazon_fashion_sunglasses_29",
+                "amazon_fashion_sunglasses_30"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_sunglasses_4",
+            "seller_name": "Fastrack",
+            "store_name": "Clark, Gray and Mcdonald",
+            "contact_info": {
+                "email": "bradfordjennifer@example.org",
+                "phone": "+1-813-825-2819x05250",
+                "address": "72259 Joshua Stravenue\nNew Melissa, IA 68066"
+            },
+            "performance_metrics": {
+                "average_rating": "4.1",
+                "total_orders": 1151,
+                "cancellation_rate": "3.9%",
+                "on_time_delivery_rate": "98.8%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_sunglasses_31",
+                "amazon_fashion_sunglasses_32",
+                "amazon_fashion_sunglasses_33",
+                "amazon_fashion_sunglasses_34",
+                "amazon_fashion_sunglasses_35",
+                "amazon_fashion_sunglasses_36",
+                "amazon_fashion_sunglasses_37",
+                "amazon_fashion_sunglasses_38",
+                "amazon_fashion_sunglasses_39",
+                "amazon_fashion_sunglasses_40"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_sunglasses_5",
+            "seller_name": "Police",
+            "store_name": "Lyons, Morrison and Sheppard",
+            "contact_info": {
+                "email": "manuel65@example.com",
+                "phone": "278.858.1774x60129",
+                "address": "0811 William Light\nHeatherton, FL 88217"
+            },
+            "performance_metrics": {
+                "average_rating": "4.9",
+                "total_orders": 1279,
+                "cancellation_rate": "4.9%",
+                "on_time_delivery_rate": "98.2%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_sunglasses_41",
+                "amazon_fashion_sunglasses_42",
+                "amazon_fashion_sunglasses_43",
+                "amazon_fashion_sunglasses_44",
+                "amazon_fashion_sunglasses_45",
+                "amazon_fashion_sunglasses_46",
+                "amazon_fashion_sunglasses_47",
+                "amazon_fashion_sunglasses_48",
+                "amazon_fashion_sunglasses_49",
+                "amazon_fashion_sunglasses_50"
+            ]
+        }
+    ],
+    "hats-caps": [
+        {
+            "seller_id": "amazon_seller_hats_caps_1",
+            "seller_name": "New Era",
+            "store_name": "Garza-Morton",
+            "contact_info": {
+                "email": "lmiller@example.net",
+                "phone": "001-972-813-6422x407",
+                "address": "1134 Griffith Run\nJennifertown, GA 89489"
+            },
+            "performance_metrics": {
+                "average_rating": "4.2",
+                "total_orders": 2435,
+                "cancellation_rate": "3.6%",
+                "on_time_delivery_rate": "96.3%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_hats-caps_1",
+                "amazon_fashion_hats-caps_2",
+                "amazon_fashion_hats-caps_3",
+                "amazon_fashion_hats-caps_4",
+                "amazon_fashion_hats-caps_5",
+                "amazon_fashion_hats-caps_6",
+                "amazon_fashion_hats-caps_7",
+                "amazon_fashion_hats-caps_8",
+                "amazon_fashion_hats-caps_9",
+                "amazon_fashion_hats-caps_10"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_hats_caps_2",
+            "seller_name": "Adidas",
+            "store_name": "Gomez Group",
+            "contact_info": {
+                "email": "nicholasryan@example.com",
+                "phone": "(483)870-7421",
+                "address": "USNS Moran\nFPO AA 20609"
+            },
+            "performance_metrics": {
+                "average_rating": "4.3",
+                "total_orders": 2462,
+                "cancellation_rate": "1.3%",
+                "on_time_delivery_rate": "99.0%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_hats-caps_11",
+                "amazon_fashion_hats-caps_12",
+                "amazon_fashion_hats-caps_13",
+                "amazon_fashion_hats-caps_14",
+                "amazon_fashion_hats-caps_15",
+                "amazon_fashion_hats-caps_16",
+                "amazon_fashion_hats-caps_17",
+                "amazon_fashion_hats-caps_18",
+                "amazon_fashion_hats-caps_19",
+                "amazon_fashion_hats-caps_20"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_hats_caps_3",
+            "seller_name": "Nike",
+            "store_name": "Jenkins Group",
+            "contact_info": {
+                "email": "gregoryrodriguez@example.org",
+                "phone": "675-893-5472x794",
+                "address": "6924 Johnson Vista Apt. 504\nLake Leah, VA 91927"
+            },
+            "performance_metrics": {
+                "average_rating": "4.3",
+                "total_orders": 1129,
+                "cancellation_rate": "1.9%",
+                "on_time_delivery_rate": "99.1%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_hats-caps_21",
+                "amazon_fashion_hats-caps_22",
+                "amazon_fashion_hats-caps_23",
+                "amazon_fashion_hats-caps_24",
+                "amazon_fashion_hats-caps_25",
+                "amazon_fashion_hats-caps_26",
+                "amazon_fashion_hats-caps_27",
+                "amazon_fashion_hats-caps_28",
+                "amazon_fashion_hats-caps_29",
+                "amazon_fashion_hats-caps_30"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_hats_caps_4",
+            "seller_name": "Reebok",
+            "store_name": "Patterson, Miller and Bird",
+            "contact_info": {
+                "email": "jgoodwin@example.org",
+                "phone": "2395242770",
+                "address": "055 Melissa Orchard\nPort Phillipstad, AK 85288"
+            },
+            "performance_metrics": {
+                "average_rating": "4.1",
+                "total_orders": 2718,
+                "cancellation_rate": "3.9%",
+                "on_time_delivery_rate": "99.5%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_hats-caps_31",
+                "amazon_fashion_hats-caps_32",
+                "amazon_fashion_hats-caps_33",
+                "amazon_fashion_hats-caps_34",
+                "amazon_fashion_hats-caps_35",
+                "amazon_fashion_hats-caps_36",
+                "amazon_fashion_hats-caps_37",
+                "amazon_fashion_hats-caps_38",
+                "amazon_fashion_hats-caps_39",
+                "amazon_fashion_hats-caps_40"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_hats_caps_5",
+            "seller_name": "Puma",
+            "store_name": "Frost, Figueroa and Patterson",
+            "contact_info": {
+                "email": "weberjames@example.org",
+                "phone": "(362)257-9028x35833",
+                "address": "503 Hill Spring\nAndrewstad, WA 82993"
+            },
+            "performance_metrics": {
+                "average_rating": "5.0",
+                "total_orders": 4985,
+                "cancellation_rate": "3.2%",
+                "on_time_delivery_rate": "98.4%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_hats-caps_41",
+                "amazon_fashion_hats-caps_42",
+                "amazon_fashion_hats-caps_43",
+                "amazon_fashion_hats-caps_44",
+                "amazon_fashion_hats-caps_45",
+                "amazon_fashion_hats-caps_46",
+                "amazon_fashion_hats-caps_47",
+                "amazon_fashion_hats-caps_48",
+                "amazon_fashion_hats-caps_49",
+                "amazon_fashion_hats-caps_50"
+            ]
+        }
+    ],
+    "jewelry": [
+        {
+            "seller_id": "amazon_seller_jewelry_1",
+            "seller_name": "Tanishq",
+            "store_name": "Rojas, Johnson and Long",
+            "contact_info": {
+                "email": "devin45@example.org",
+                "phone": "800.506.8660",
+                "address": "03085 Fitzpatrick Village Suite 385\nSouth Deniseville, AL 71454"
+            },
+            "performance_metrics": {
+                "average_rating": "4.9",
+                "total_orders": 4409,
+                "cancellation_rate": "4.2%",
+                "on_time_delivery_rate": "97.2%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_jewelry_1",
+                "amazon_fashion_jewelry_2",
+                "amazon_fashion_jewelry_3",
+                "amazon_fashion_jewelry_4",
+                "amazon_fashion_jewelry_5",
+                "amazon_fashion_jewelry_6",
+                "amazon_fashion_jewelry_7",
+                "amazon_fashion_jewelry_8",
+                "amazon_fashion_jewelry_9",
+                "amazon_fashion_jewelry_10"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_jewelry_2",
+            "seller_name": "Kalyan Jewellers",
+            "store_name": "Kelly, Cooper and Vasquez",
+            "contact_info": {
+                "email": "uwells@example.org",
+                "phone": "812.418.9561x9254",
+                "address": "923 Eric Curve Apt. 315\nSouth Rogerland, IL 82533"
+            },
+            "performance_metrics": {
+                "average_rating": "4.9",
+                "total_orders": 3026,
+                "cancellation_rate": "1.1%",
+                "on_time_delivery_rate": "99.4%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_jewelry_11",
+                "amazon_fashion_jewelry_12",
+                "amazon_fashion_jewelry_13",
+                "amazon_fashion_jewelry_14",
+                "amazon_fashion_jewelry_15",
+                "amazon_fashion_jewelry_16",
+                "amazon_fashion_jewelry_17",
+                "amazon_fashion_jewelry_18",
+                "amazon_fashion_jewelry_19",
+                "amazon_fashion_jewelry_20"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_jewelry_3",
+            "seller_name": "Malabar Gold",
+            "store_name": "Smith-Tanner",
+            "contact_info": {
+                "email": "nicholsonmargaret@example.net",
+                "phone": "5619588305",
+                "address": "3512 Sarah Prairie Suite 337\nSouth Nancyfort, WY 52777"
+            },
+            "performance_metrics": {
+                "average_rating": "4.6",
+                "total_orders": 2423,
+                "cancellation_rate": "4.3%",
+                "on_time_delivery_rate": "99.7%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_jewelry_21",
+                "amazon_fashion_jewelry_22",
+                "amazon_fashion_jewelry_23",
+                "amazon_fashion_jewelry_24",
+                "amazon_fashion_jewelry_25",
+                "amazon_fashion_jewelry_26",
+                "amazon_fashion_jewelry_27",
+                "amazon_fashion_jewelry_28",
+                "amazon_fashion_jewelry_29",
+                "amazon_fashion_jewelry_30"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_jewelry_4",
+            "seller_name": "CaratLane",
+            "store_name": "Cox, Jenkins and Brown",
+            "contact_info": {
+                "email": "dgarcia@example.com",
+                "phone": "001-312-200-3375x1259",
+                "address": "006 Quinn Plaza\nReneeshire, HI 33006"
+            },
+            "performance_metrics": {
+                "average_rating": "4.4",
+                "total_orders": 2382,
+                "cancellation_rate": "1.6%",
+                "on_time_delivery_rate": "96.6%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_jewelry_31",
+                "amazon_fashion_jewelry_32",
+                "amazon_fashion_jewelry_33",
+                "amazon_fashion_jewelry_34",
+                "amazon_fashion_jewelry_35",
+                "amazon_fashion_jewelry_36",
+                "amazon_fashion_jewelry_37",
+                "amazon_fashion_jewelry_38",
+                "amazon_fashion_jewelry_39",
+                "amazon_fashion_jewelry_40"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_jewelry_5",
+            "seller_name": "Pendants",
+            "store_name": "Mathis Group",
+            "contact_info": {
+                "email": "todd97@example.com",
+                "phone": "(503)865-6302x43890",
+                "address": "9062 Clark Harbors Apt. 323\nEast Christopher, WI 30547"
+            },
+            "performance_metrics": {
+                "average_rating": "4.0",
+                "total_orders": 3242,
+                "cancellation_rate": "4.0%",
+                "on_time_delivery_rate": "95.7%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_jewelry_41",
+                "amazon_fashion_jewelry_42",
+                "amazon_fashion_jewelry_43",
+                "amazon_fashion_jewelry_44",
+                "amazon_fashion_jewelry_45",
+                "amazon_fashion_jewelry_46",
+                "amazon_fashion_jewelry_47",
+                "amazon_fashion_jewelry_48",
+                "amazon_fashion_jewelry_49",
+                "amazon_fashion_jewelry_50"
+            ]
+        }
+    ],
+    "sportswear": [
+        {
+            "seller_id": "amazon_seller_sportswear_1",
+            "seller_name": "Decathlon",
+            "store_name": "Rodriguez and Sons",
+            "contact_info": {
+                "email": "cobbcarrie@example.org",
+                "phone": "001-960-914-6974x883",
+                "address": "16703 Howard Prairie Suite 565\nDonnaland, MH 12517"
+            },
+            "performance_metrics": {
+                "average_rating": "4.4",
+                "total_orders": 4732,
+                "cancellation_rate": "4.5%",
+                "on_time_delivery_rate": "97.9%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_sportswear_1",
+                "amazon_fashion_sportswear_2",
+                "amazon_fashion_sportswear_3",
+                "amazon_fashion_sportswear_4",
+                "amazon_fashion_sportswear_5",
+                "amazon_fashion_sportswear_6",
+                "amazon_fashion_sportswear_7",
+                "amazon_fashion_sportswear_8",
+                "amazon_fashion_sportswear_9",
+                "amazon_fashion_sportswear_10"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_sportswear_2",
+            "seller_name": "Nike",
+            "store_name": "Higgins Group",
+            "contact_info": {
+                "email": "wangandre@example.com",
+                "phone": "214.460.0162x2432",
+                "address": "229 Mitchell Islands\nPort Jeffreychester, HI 57927"
+            },
+            "performance_metrics": {
+                "average_rating": "4.7",
+                "total_orders": 3911,
+                "cancellation_rate": "4.6%",
+                "on_time_delivery_rate": "99.7%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_sportswear_11",
+                "amazon_fashion_sportswear_12",
+                "amazon_fashion_sportswear_13",
+                "amazon_fashion_sportswear_14",
+                "amazon_fashion_sportswear_15",
+                "amazon_fashion_sportswear_16",
+                "amazon_fashion_sportswear_17",
+                "amazon_fashion_sportswear_18",
+                "amazon_fashion_sportswear_19",
+                "amazon_fashion_sportswear_20"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_sportswear_3",
+            "seller_name": "Adidas",
+            "store_name": "Olson, Montgomery and Young",
+            "contact_info": {
+                "email": "kathleenlee@example.net",
+                "phone": "6844727134",
+                "address": "96800 Kenneth Meadows\nJimenezshire, NY 45523"
+            },
+            "performance_metrics": {
+                "average_rating": "4.1",
+                "total_orders": 1306,
+                "cancellation_rate": "2.1%",
+                "on_time_delivery_rate": "100.0%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_sportswear_21",
+                "amazon_fashion_sportswear_22",
+                "amazon_fashion_sportswear_23",
+                "amazon_fashion_sportswear_24",
+                "amazon_fashion_sportswear_25",
+                "amazon_fashion_sportswear_26",
+                "amazon_fashion_sportswear_27",
+                "amazon_fashion_sportswear_28",
+                "amazon_fashion_sportswear_29",
+                "amazon_fashion_sportswear_30"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_sportswear_4",
+            "seller_name": "Puma",
+            "store_name": "Walton-Wilson",
+            "contact_info": {
+                "email": "wwelch@example.org",
+                "phone": "001-837-452-0987x343",
+                "address": "0884 Amanda Turnpike Suite 584\nNew Jenniferbury, MP 50794"
+            },
+            "performance_metrics": {
+                "average_rating": "4.9",
+                "total_orders": 2541,
+                "cancellation_rate": "2.5%",
+                "on_time_delivery_rate": "99.8%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_sportswear_31",
+                "amazon_fashion_sportswear_32",
+                "amazon_fashion_sportswear_33",
+                "amazon_fashion_sportswear_34",
+                "amazon_fashion_sportswear_35",
+                "amazon_fashion_sportswear_36",
+                "amazon_fashion_sportswear_37",
+                "amazon_fashion_sportswear_38",
+                "amazon_fashion_sportswear_39",
+                "amazon_fashion_sportswear_40"
+            ]
+        },
+        {
+            "seller_id": "amazon_seller_sportswear_5",
+            "seller_name": "Reebok",
+            "store_name": "Thomas and Sons",
+            "contact_info": {
+                "email": "hwilson@example.com",
+                "phone": "(769)684-8880",
+                "address": "8374 Stephanie Points\nJosebury, IL 82446"
+            },
+            "performance_metrics": {
+                "average_rating": "4.9",
+                "total_orders": 1907,
+                "cancellation_rate": "1.1%",
+                "on_time_delivery_rate": "97.6%"
+            },
+            "sellsProducts": [
+                "amazon_fashion_sportswear_41",
+                "amazon_fashion_sportswear_42",
+                "amazon_fashion_sportswear_43",
+                "amazon_fashion_sportswear_44",
+                "amazon_fashion_sportswear_45",
+                "amazon_fashion_sportswear_46",
+                "amazon_fashion_sportswear_47",
+                "amazon_fashion_sportswear_48",
+                "amazon_fashion_sportswear_49",
+                "amazon_fashion_sportswear_50"
+            ]
+        }
+    ]
+}

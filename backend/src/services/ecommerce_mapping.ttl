@@ -1,0 +1,216 @@
+@prefix : <http://delta.org#> .
+@prefix amzCustomerNS: <http://delta.org/amazon/CustomerNS#> .
+@prefix amzNS: <http://delta.org/amazon#> .
+@prefix amzOrderNS: <http://delta.org/amazon/OrderNS#> .
+@prefix amzProductNS: <http://delta.org/amazon/ProductNS#> .
+@prefix amzProductShippingOptionsNS: <http://delta.org/amazon/ProductShippingOptionsNS#> .
+@prefix amzSellerNS: <http://delta.org/amazon/SellerNS#> .
+@prefix flipCustomerNS: <http://delta.org/flipkart/CustomerNS#> .
+@prefix flipItemNS: <http://delta.org/flipkart/ItemNS#> .
+@prefix flipItemShippingOptionsNS: <http://delta.org/flipkart/ItemShippingOptionsNS#> .
+@prefix flipNS: <http://delta.org/flipkart#> .
+@prefix flipOrderNS: <http://delta.org/flipkart/OrderNS#> .
+@prefix flipSellerNS: <http://delta.org/flipkart/SellerNS#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+:Amazon owl:equivalentClass :Flipkart .
+
+# Relations between Amazon and its classes and flipkart and its classes
+
+amzProductNS:Category owl:equivalentClass flipItemNS:Group .
+amzProductNS:Brand owl:equivalentClass flipItemNS:Producer .
+amzNS:Product owl:equivalentClass flipNS:Item .
+amzNS:User owl:equivalentClass flipNS:Consumer .
+
+## Object Properties (relationships from Amazon to other classes) and Object Properties (relationships from Flipkart to other classes)
+
+amzNS:hasCategory owl:equivalentProperty flipNS:hasGroup .
+amzNS:hasBrand owl:equivalentProperty flipNS:hasProducer .
+amzNS:hasProduct owl:equivalentProperty flipNS:hasItem .
+amzNS:hasUser owl:equivalentProperty flipNS:hasConsumer .
+
+
+# Relationships between Product, Brand and Category 
+
+amzProductNS:hasBrand owl:equivalentProperty flipItemNS:hasProducer .
+amzProductNS:producesProduct owl:equivalentProperty flipItemNS:producesItem .
+amzProductNS:hasCategory owl:equivalentProperty flipItemNS:hasGroup .
+amzProductNS:hasProduct owl:equivalentProperty flipItemNS:hasItem .
+
+# Class Sub-Category, relation between Category, Sub-Category and Product
+
+amzProductNS:SubCategory owl:equivalentProperty flipItemNS:SubGroup .
+
+## Relationships 
+
+amzProductNS:hasSubCategory owl:equivalentProperty flipItemNS:hasSubGroup .
+amzProductNS:hasProduct owl:equivalentProperty flipItemNS:hasItem .
+
+# Classes of Product 
+
+amzProductNS:Price owl:equivalentClass flipItemNS:salePrice .
+amzProductNS:Availability owl:equivalentClass flipItemNS:stockStatus .
+amzProductNS:Return_Policy owl:equivalentClass flipItemNS:Return_Rules .
+amzProductNS:Rating owl:equivalentClass flipItemNS:Rating .
+amzProductNS:Dimensions owl:equivalentClass flipItemNS:Dimensions .
+amzProductNS:Shipping_Options owl:equivalentClass flipItemNS:Shipping_Methods .
+
+
+# Relations from product to above classes
+
+amzProductNS:hasPrice owl:equivalentProperty flipItemNS:hassalePrice .
+amzProductNS:hasAvailability owl:equivalentProperty flipItemNS:hasstockStatus .
+amzProductNS:hasReturnPolicy owl:equivalentProperty flipItemNS:hasReturnPolicy .
+amzProductNS:hasRating owl:equivalentProperty flipItemNS:hasRating .
+amzProductNS:hasDimensions owl:equivalentProperty flipItemNS:hasDimensions .
+amzProductNS:hasShippingOptions owl:equivalentProperty flipItemNS:hasShippingOptions .
+
+amzProductNS:Return_Fee owl:equivalentClass flipItemNS:Return_Fee .
+
+amzProductNS:hasReturnFee owl:equivalentProperty flipItemNS:hasReturnFee .
+
+# Define order as a subclass of Product
+
+amzProductNS:Order owl:equivalentClass flipItemNS:Order .
+
+amzOrderNS:Shipping_Info owl:equivalentClass flipOrderNS:Shipping_Info .
+
+amzOrderNS:hasShippingInfo owl:equivalentClass flipOrderNS:hasShippingInfo .
+
+
+## Shipping_info Of Order 
+amzOrderNS:Price owl:equivalentClass flipOrderNS:salePrice .
+amzOrderNS:Estimated_Delivery_Time owl:equivalentClass flipOrderNS:Estimated_Delivery_Time .
+amzOrderNS:Address owl:equivalentClass flipOrderNS:Address .
+
+amzOrderNS:hasShippingPrice owl:equivalentProperty flipOrderNS:hasShippingsalePrice .
+amzOrderNS:hasDeliveryTime owl:equivalentProperty flipOrderNS:hasDeliveryTime .
+amzOrderNS:deliverTo owl:equivalentProperty flipOrderNS:deliverTo .
+
+amzProductShippingOptionsNS:Price owl:equivalentClass flipItemShippingOptionsNS:salePrice .
+amzProductShippingOptionsNS:Estimated_Delivery_Time owl:equivalentClass flipItemShippingOptionsNS:Estimated_Delivery_Time .
+
+amzProductNS:hasShippingPrice owl:equivalentProperty flipItemNS:hasShippingsalePrice .
+amzProductNS:hasDeliveryTime owl:equivalentProperty amzProductNS:hasDeliveryTime .
+
+
+amzProductNS:Order owl:equivalentClass flipItemNS:Order .
+amzProductNS:Customer owl:equivalentClass flipItemNS:Customer .
+amzProductNS:Seller owl:equivalentClass flipItemNS:Seller .
+
+amzCustomerNS:views owl:equivalentProperty flipCustomerNS:views .
+amzProductNS:hasSeller owl:equivalentProperty flipItemNS:hasSeller .
+amzSellerNS:sells owl:equivalentProperty flipSellerNS:sells .
+
+# Customer namespace classes 
+
+amzCustomerNS:Cart owl:equivalentClass flipCustomerNS:Cart .
+amzCustomerNS:Wishlist owl:equivalentClass flipCustomerNS:Wishlist .
+amzCustomerNS:Details owl:equivalentClass flipCustomerNS:Details .
+
+amzCustomerNS:hasCart owl:equivalentProperty flipCustomerNS:hasCart .
+amzCustomerNS:hasWishlist owl:equivalentProperty flipCustomerNS:hasWishlist .
+amzCustomerNS:hasDetails owl:equivalentProperty flipCustomerNS:hasDetails .
+amzCustomerNS:hasOrder owl:equivalentProperty flipCustomerNS:hasOrder .
+
+
+amzCustomerNS:Address_Options owl:equivalentClass flipCustomerNS:Address_Options .
+
+
+amzCustomerNS:hasAddress owl:equivalentProperty flipCustomerNS:hasAddress .
+
+amzSellerNS:Contact_Info owl:equivalentClass flipSellerNS:Contact_Info .
+amzSellerNS:Performance_Metrics owl:equivalentClass flipSellerNS:Performance_Metrics .
+
+amzSellerNS:hasPerformanceMetrics owl:equivalentProperty flipSellerNS:hasPerformanceMetrics .
+amzSellerNS:hasContact owl:equivalentProperty flipSellerNS:hasContact .
+amzCustomerNS:hasProduct owl:equivalentProperty flipCustomerNS:hasItem .
+
+
+################### Now lets define attributes 
+
+## product 
+amzProductNS:id owl:equivalentProperty flipItemNS:id .
+amzProductNS:descrition owl:equivalentProperty flipItemNS:description .
+amzProductNS:product_name owl:equivalentProperty flipItemNS:item_name .
+amzProductNS:model_number owl:equivalentProperty flipItemNS:model_number .
+amzProductNS:color owl:equivalentProperty flipItemNS:color .
+amzProductNS:features owl:equivalentProperty flipItemNS:features .
+amzProductNS:images owl:equivalentProperty flipItemNS:images .
+amzProductNS:brand_name owl:equivalentProperty flipItemNS:producer_name .
+amzProductNS:sub_category_name owl:equivalentProperty flipItemNS:sub_group_name .
+amzProductNS:category_name owl:equivalentProperty flipItemNS:group_name .
+amzProductNS:price_amount owl:equivalentProperty flipItemNS:salePrice_amount .
+amzProductNS:price_currency owl:equivalentProperty flipItemNS:salePrice_currency .
+amzProductNS:availability_stock owl:equivalentProperty flipItemNS:stockStatus_stock .
+amzProductNS:availability_status owl:equivalentProperty flipItemNS:stockStatus_status .
+amzProductNS:availability_restock_date owl:equivalentProperty flipItemNS:stockStatus_restock_date .
+amzProductNS:rating_average owl:equivalentProperty flipItemNS:rating_average .
+amzProductNS:rating_number_of_reviews owl:equivalentProperty flipItemNS:rating_number_of_reviews .
+amzProductNS:dimensions_height_cm owl:equivalentProperty flipItemNS:dimensions_height_cm .
+amzProductNS:dimensions_depth_cm owl:equivalentProperty flipItemNS:dimensions_depth_cm .
+amzProductNS:dimensions_width_cm owl:equivalentProperty flipItemNS:dimensions_width_cm .
+amzProductNS:dimensions_weight_cm owl:equivalentProperty flipItemNS:dimensions_weight_cm .
+amzProductNS:return_policy_return_period_days owl:equivalentProperty flipItemNS:Return_Rules_return_period_days .
+amzProductNS:return_policy_conditions owl:equivalentProperty flipItemNS:Return_Rules_conditions .
+
+amzProductNS:return_policy_is_return_eligible owl:equivalentProperty flipItemNS:Return_Rules_is_return_eligible .
+amzProductNS:return_fee_price owl:equivalentProperty flipItemNS:return_fee_salePrice .
+
+amzProductNS:return_fee_currency owl:equivalentProperty flipItemNS:return_fee_currency .
+amzProductNS:order_order_id owl:equivalentProperty flipItemNS:order_order_id .
+amzProductNS:order_quantity_ordered owl:equivalentProperty flipItemNS:order_quantity_ordered .
+
+# OrderNS
+amzOrderNS:shipping_info_shipping_status owl:equivalentProperty flipOrderNS:shipping_info_shipping_status .
+
+amzOrderNS:shipping_info_method owl:equivalentProperty flipOrderNS:shipping_info_method .
+
+amzOrderNS:shipping_info_price_cost owl:equivalentProperty flipOrderNS:shipping_info_salePrice_cost .
+
+amzOrderNS:shipping_info_price_currency owl:equivalentProperty flipOrderNS:shipping_info_salePrice_currency .
+
+amzOrderNS:shipping_info_estimated_delivery_time_deliver_time owl:equivalentProperty flipOrderNS:shipping_info_estimated_delivery_time_deliver_time .
+
+amzOrderNS:shipping_info_estimated_delivery_time_metric owl:equivalentProperty flipOrderNS:shipping_info_estimated_delivery_time_metric .
+amzOrderNS:shipping_info_address_type owl:equivalentProperty flipOrderNS:shipping_info_address_type .
+amzOrderNS:shipping_info_address_string owl:equivalentProperty flipOrderNS:shipping_info_address_string .
+amzOrderNS:shipping_info_address_city owl:equivalentProperty flipOrderNS:shipping_info_address_city .
+
+amzOrderNS:shipping_info_address_state owl:equivalentProperty flipOrderNS:shipping_info_address_state .
+amzOrderNS:shipping_info_address_postal_code owl:equivalentProperty flipOrderNS:shipping_info_address_postal_code .
+
+amzOrderNS:shipping_info_address_country owl:equivalentProperty flipOrderNS:shipping_info_address_state .
+
+amzProductNS:shipping_options_method owl:equivalentProperty flipItemNS:Shipping_Methods_method .
+
+amzProductShippingOptionsNS:shipping_options_price_cost owl:equivalentProperty flipItemShippingOptionsNS:Shipping_Methods_salePrice_cost .
+amzProductShippingOptionsNS:shipping_options_price_currency owl:equivalentProperty flipItemShippingOptionsNS:Shipping_Methods_salePrice_currency .
+
+amzProductShippingOptionsNS:shipping_options_estimated_delivery_time_delivery_time owl:equivalentProperty flipItemShippingOptionsNS:Shipping_Methods_estimated_delivery_time_delivery_time .
+
+amzProductShippingOptionsNS:shipping_options_estimated_delivery_time_metric owl:equivalentProperty flipItemShippingOptionsNS:Shipping_Methods_estimated_delivery_time_metric .
+
+amzSellerNS:seller_seller_id owl:equivalentProperty flipSellerNS:seller_seller_id .
+amzSellerNS:seller_seller_name owl:equivalentProperty flipSellerNS:seller_seller_name .
+amzSellerNS:seller_store_name owl:equivalentProperty flipSellerNS:seller_store_name .
+amzSellerNS:seller_contact_info_email owl:equivalentProperty flipSellerNS:seller_contact_info_email .
+amzSellerNS:seller_contact_info_phone owl:equivalentProperty flipSellerNS:seller_contact_info_phone .
+amzSellerNS:seller_contact_info_address owl:equivalentProperty flipSellerNS:seller_contact_info_address .
+amzSellerNS:seller_performance_metrics_average_rating owl:equivalentProperty flipSellerNS:seller_performance_metrics_average_rating .
+amzSellerNS:seller_performance_metrics_total_orders owl:equivalentProperty flipSellerNS:seller_performance_metrics_total_orders .
+amzSellerNS:seller_performance_metrics_cancellation_rate owl:equivalentProperty flipSellerNS:seller_performance_metrics_cancellation_rate .
+amzSellerNS:seller_performance_metrics_on_time_delivery_rate owl:equivalentProperty flipSellerNS:seller_performance_metrics_on_time_delivery_rate .
+
+
+amzCustomerNS:details_customer_name owl:equivalentProperty flipCustomerNS:details_customer_name .
+amzCustomerNS:details_customer_id owl:equivalentProperty flipCustomerNS:details_customer_id .
+amzCustomerNS:details_customer_email owl:equivalentProperty flipCustomerNS:details_customer_email .
+amzCustomerNS:details_customer_phone owl:equivalentProperty flipCustomerNS:details_customer_phone .
+amzCustomerNS:details_address_options_type owl:equivalentProperty flipCustomerNS:details_address_options_type .
+amzCustomerNS:details_address_options_address owl:equivalentProperty flipCustomerNS:details_address_options_address .
+amzCustomerNS:details_address_options_city owl:equivalentProperty flipCustomerNS:details_address_options_city .
+amzCustomerNS:details_address_options_state owl:equivalentProperty flipCustomerNS:details_address_options_state .
+amzCustomerNS:details_address_options_postal_code owl:equivalentProperty flipCustomerNS:details_address_options_postal_code .
+amzCustomerNS:details_address_options_country owl:equivalentProperty flipCustomerNS:details_address_options_country .
+# ####################################################################################
