@@ -1,17 +1,14 @@
 # Multi‑Portal Ecommerce
 
-A flexible multi‑portal e‑commerce platform enabling multiple independent storefronts from a centralized codebase.
+A multi-portal ecommerce platform that lets an user compare price across multiple ecommerce stores
 
 ---
 
 ## 🚀 Features
 
-- Multi‑portal / multi‑tenant architecture
-- User management: separate logins, dashboards per portal
-- Catalog & product management per storefront
-- Separate shopping cart, checkout, and payment flows per portal
-- Built with [React / Next.js / Angular / Django / Flask], [Node.js / Spring Boot / Django REST Framework], and [MongoDB / PostgreSQL / MySQL]  
-  *(adjust stack here to match your project)*
+- Multi‑portal ecommerce
+- Lets a user compare price across multiple ecommerce stores
+- Built with [React], [Node.js], and [GraphDB]  
 
 ---
 
@@ -19,11 +16,10 @@ A flexible multi‑portal e‑commerce platform enabling multiple independent st
 
 | Layer       | Description |
 |-------------|-------------|
-| Frontend    | React / Angular / Vue (Portal UI) |
-| Backend     | Node.js (Express) / Django REST / Spring Boot (API layer) |
-| Database    | MongoDB / PostgreSQL / MySQL |
-| Payments    | Stripe / PayPal / Razorpay integration |
-| Deployment  | Docker / Kubernetes / Heroku / Vercel |
+| Frontend    | React |
+| Backend     | Node.js (Express)  |
+| Database    | GraphDB |
+
 
 ---
 
@@ -31,10 +27,13 @@ A flexible multi‑portal e‑commerce platform enabling multiple independent st
 
 ### Prerequisites
 
-- Node.js ≥ xx.x  
-- npm / yarn  
-- MongoDB / PostgreSQL running locally  
-- (Optional) Docker & Docker Compose
+- Node.js 
+- npm   
+- GraphDB
+- Python
+- pip
+- flask 
+
 
 ### Installation
 
@@ -48,6 +47,6 @@ npm install
 npm run dev
 
 # Install backend dependencies
-cd ../backend
+cd ../SPARQLTest
 npm install
 npm start
