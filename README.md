@@ -49,4 +49,5 @@ npm run dev
 # Install backend dependencies
 cd ../SPARQLTest
 python3 server.py
-node query.js (replace it with the SPARQL query you want)
+# Go to the query.js file and replace it with the SPARQL query you want, then you are free to run it
+node query.js 
