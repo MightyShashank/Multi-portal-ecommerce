@@ -1,6 +1,12 @@
 # Multi‑Portal Ecommerce
 
-A multi-portal ecommerce platform that lets an user compare price across multiple ecommerce stores
+A multi-portal ecommerce platform that lets an user compare price across multiple ecommerce stores using semantic search technologies.
+
+# How does our system ontology look
+<img width="1201" height="745" alt="half diagram Ontology" src="https://github.com/user-attachments/assets/eb19a04b-7d1f-49db-b5e8-4d4eb4422fda" />
+
+# A complete view of the Ontology
+<img width="556" height="675" alt="full_diagram_ontology" src="https://github.com/user-attachments/assets/a1415d7e-dd4e-4f22-bf5e-44b760dc8cf4" />
 
 ---
 
